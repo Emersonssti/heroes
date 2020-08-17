@@ -1,0 +1,14 @@
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>    
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^cadastro/torneio/(.*)$ torneio_forms.php?id_torneio=$1
+RewriteRule ^pesquisa/torneio/(.*)$ torneio_list.php
