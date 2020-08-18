@@ -1,9 +1,10 @@
 <? include "header.php"; ?>
 
-    <div class="main-slider-section">
+    <div style="  background: url(images/soccer/main-slider.png) no-repeat;
+  background-size: cover;">
     <div class="main-slider">
-        <div id="main-slider" class="carousel slide" data-ride="carousel" data-interval="4000">
-            <div class="carousel-inner" role="listbox">
+        <div id="main-slider" data-interval="4000">
+            <div class="" role="listbox">
                 <!-- <div class="item active">
                     <div class="main-slider-caption">
                         <div class="container">
@@ -65,28 +66,6 @@
                     </div>
                 </div>
 
-                <div class="item">
-                    <!-- <div class="main-slider-caption">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="match-date">26 Sep 2016 / 9:30 PM / city arena</div>
-                                    <div class="team"> Team Name 1
-                                        <div class="big-count">
-                                            2:0
-                                        </div>
-                                        Team Name 2
-                                    </div>                                                                          
-                                    <div class="booking">
-                                        <a href="match-live.html">
-                                            Watch live
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
 
             </div>
 
