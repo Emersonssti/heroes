@@ -45,12 +45,12 @@
             <div class="collapse navbar-collapse" id="team-menu">
                 <ul class="main-menu nav">
                     <li class="active">
-                        <a href="#"><span>Home</span></a>
+                        <a href="index.php"><span>Home</span></a>
                     </li>
                     <li>
                         <a href="#"><span>Sobre</span></a>
                     </li>
-                    <li><a href="#"><span>Notícias</span></a></li>
+                    <li><a href="noticias.php"><span>Notícias</span></a></li>
                     <li>
                         <a href="#"><span>Torneios</span></a>
                         <ul>

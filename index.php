@@ -1,7 +1,7 @@
 <? include "header.php"; ?>
 
-    <div style="  background: url(images/soccer/main-slider.png) no-repeat;
-  background-size: cover;">
+
+    <div  clas="facet_sidebar" style="background: url(images/slider.png) no-repeat; background-size: cover;">
     <div class="main-slider">
         <div id="main-slider" data-interval="4000">
             <div class="" role="listbox">
