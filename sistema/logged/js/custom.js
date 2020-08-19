@@ -88,4 +88,32 @@ $("#gravar_noticia").click(function(){
     })
  });  
  
+ //Excluir Noticia
+ function Excluir_Noticia(id) {
+     alert('teste');
+    // var ID_MANU_IMOVEL = $("#id_manu_imovel").val();
+    // var IdMaterial = id;
+    // var originurl = window.location.origin;
+
+    // //TRATA VALOR TOTAL PARA INSERIR NO BANCO (STRING PARA FLOAT)
+    // var VALOR_TOTAL = $("#tdlistmavlr_total_" + IdMaterial).html();
+    // var VALOR_TOTAL_ = parseFloat(VALOR_TOTAL.split(".").join("").replace(",", "."));
+
+    // var TOTAL_ATUAL = $("#somamanutencao").html();
+    // var TOTAL_ATUAL_ = parseFloat(TOTAL_ATUAL.split(".").join("").replace(",", "."));
+
+    // $.ajax({ url: originurl + "/sistema/logged/modulos/cad-manutencao-bem-imovel/deletar_material.php?id_material=" + IdMaterial, cache: false }).done(function (txtinativa) {
+
+    //     if (txtinativa == 1) {
+    //         $("#trmaterial_" + IdMaterial).fadeOut();
+
+    //         var SOMA_TOTAL = (TOTAL_ATUAL_ - VALOR_TOTAL_);
+    //         SOMA_TOTAL = SOMA_TOTAL.toLocaleString('pt-br', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
+    //         $("#somamanutencao").html(SOMA_TOTAL);
+
+    //     } else {
+    //         swal("Erro ao deletar o registro, por favor, contate o Suporte!", '', 'error');
+    //     }
+    // });
+}
      

@@ -9,3 +9,7 @@ table td{
 button{
     font-size: 10px !important;
 }
+
+.fa-trash{
+    color:red !important;
+}
