@@ -73,14 +73,14 @@ $("#gravar_noticia").click(function(){
         swal("Notícia criada com sucesso!");
         var delay=2000; //1 seconds
         setTimeout(function(){
-            location.replace("../logged/noticia_list.php");
+            location.replace("../logged/noticias_list.php");
         },delay);
 
        }else if( txtstatus == 2){
         swal("Registro Alterado com sucesso!");
         var delay=2000; //1 seconds
         setTimeout(function(){
-            location.replace("../logged/noticia_list.php");
+            location.replace("../logged/noticias_list.php");
         },delay);
        }
        
