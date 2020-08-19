@@ -28,29 +28,35 @@
                       <table class="stripe" id="example-style-8">
                         <thead>
                           <tr>
-                            <th>Data</th>
-                            <th>Título</th>
-                            <th>Fonte</th>
-                            <th>Ação</th>
+                            <th width="20%">Data</th>
+                            <th width="40%">Título</th>
+                            <th width="25%">Fonte</th>
+                            <th width="15%">Ação</th>
                           </tr>
                         </thead>
                         <tbody>
                        <? $sql_noticia = "SELECT
-                      *
+                        DATE_FORMAT(noticia.DATA_POSTAGEM, '%d/%m/%Y'),
+                        noticia.TITULO,
+                        noticia.NOME_GERADOR,
+                        noticia.ID_NOTICIA
                         FROM noticia";
                         foreach ($db_heroes->query($sql_noticia) as $result_noticia){ 
                           ?>
-
-                          <? include "torneio_inscricoes.php"?>
                           
-                          <tr>
-                            <td><? echo utf8_encode($result_noticia[0])?></td>
-                            <td><? echo $result_noticia[1]?></td>
-                            <td><? echo $result_noticia[2]?></td>
+                          <tr id="tr_noticia_<? echo $result_noticia[3]; ?>">
+                            <td><? echo $result_noticia[0]?></td>
+                            <td><? echo utf8_encode($result_noticia[1])?></td>
+                            <td><? echo utf8_encode($result_noticia[2])?></td>
                             <td>
                               <!--EDITAR-->
-                              <button type="button" title="Editar" class="btn btn-sm btn-icon" onclick="location.href='torneio_forms.php?id_torneio=<? echo $result_noticia[6]; ?>';" >
+                              <button type="button" title="Editar" class="btn btn-sm btn-icon" onclick="location.href='noticias_forms.php?id_noticia=<? echo $result_noticia[3]; ?>';" >
                                 <span><i class="fa fa-pencil fa-2x" style="color:#7366ff"  aria-hidden="true"></i></span>
+                              </button>
+
+                              <!--EXCLUIR-->
+                              <button type="button" title="Excluir" class="btn btn-sm btn-icon" id="btexclui_noticia<? echo $result_noticia[3]; ?>" onclick="Excluir_Noticia('<? echo $result_noticia[3]; ?>');" >
+                                <span><i class="fa fa-trash fa-2x" style="color:#7366ff"  aria-hidden="true"></i></span>
                               </button>
 
                             </td>

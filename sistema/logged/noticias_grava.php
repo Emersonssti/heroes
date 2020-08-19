@@ -18,9 +18,9 @@ if($id_noticia == ""){
     }
 
 }else{
-   $update_torneio = $db_heroes->query("UPDATE torneio SET NOME = ('".$NOME."'), TH = ('".$TH."'), INICIO_INSCRICAO = ('".$INICIO_INSC."'),  FINAL_INSCRICAO = ('".$FINAL_INSC."'), INICIO_CLASSIFICATORIA = ('".$CLASSIFICATORIA."'), INICIO_FASE_GRUPO = ('".$FASE_GRUPO."'), INICIO_SEMIFINAL = ('".$SEMIFINAL."'), DATA_FINAL = ('".$FINAL."'), ID_STATUS = ('".$ID_STATUS."'), ID_USER = ('" .$id_user."') WHERE ID_TORNEIO = ('".$ID_TORNEIO."')");
+   $update_noticia = $db_heroes->query("UPDATE noticia SET TITULO = ('".$titulo."'), NOME_GERADOR = ('".$fonte."'), URL_IMG = ('".$url_foto."'),  URL_FONTE = ('".$url_fonte."'), DATA_POSTAGEM = ('".$data."')  WHERE ID_NOTICIA = ('".$id_noticia."')");
 
-    if(!$update_torneio){
+    if(!$update_noticia){
         echo 0;
     }
     else{

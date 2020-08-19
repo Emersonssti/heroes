@@ -88,4 +88,22 @@ $("#gravar_noticia").click(function(){
     })
  });  
  
+ //Excluir Noticia
+ function Excluir_Noticia(id) {
+
+    var ID_NOTICIA = id;
+
+    $.ajax({ url: 'noticias_excluir.php?id_noticia=' + ID_NOTICIA, cache: false }).done(function (txtinativa) {
+
+
+        if (txtinativa == 1) {
+
+            swal("Erro ao deletar o registro, por favor, contate o Suporte!", '', 'error');
+
+
+        } else {
+            $("#tr_noticia_" + ID_NOTICIA).fadeOut();
+        }
+    });
+}
      
