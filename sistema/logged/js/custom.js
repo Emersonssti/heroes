@@ -51,5 +51,41 @@ $("#gravar_torneio").click(function(){
    
     })
  });  
+
+///////////////// Grava Notícia
+$("#gravar_noticia").click(function(){
+    var ID_NOTICIA = $('#id_noticia').val();
+
+    var TITULO = $('#titulo').val();
+    var DATA = $('#data').val();
+    var FONTE = $('#fonte').val();
+    var URL_FOTO = $('#url_foto').val();
+    var URL_FONTE = $('#url_fonte').val();
+   
+    $.ajax({ url:'noticias_grava.php?titulo=' + TITULO + '&data=' + DATA + '&fonte=' + FONTE + '&url_foto=' + URL_FOTO+ '&url_fonte=' + URL_FONTE + '&id_noticia=' + ID_NOTICIA, cache: false }).done(function (txtstatus) {
+ 
+    
+       if(txtstatus == 0){
+        swal("Não foi possível salvar os dados, contate o suporte", '', 'error');
+
+       }else if( txtstatus == 1){
+
+        swal("Notícia criada com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/noticia_list.php");
+        },delay);
+
+       }else if( txtstatus == 2){
+        swal("Registro Alterado com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/noticia_list.php");
+        },delay);
+       }
+       
+   
+    })
+ });  
  
      

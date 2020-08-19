@@ -109,6 +109,8 @@
                       <li><a href="torneio_list.php">Torneio</a></li>
                     </ul>
                   </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="noticias_list.php" target="_blank"><i data-feather="volume"></i><span>Notícias</span></a></li>
+                  </li>
 
                   <!-- <li class="dropdown"><a class="nav-link menu-title" href="#"><i data-feather="maximize"></i><span>Torneio</span></a>
                     <ul class="nav-submenu menu-content">

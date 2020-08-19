@@ -24,7 +24,7 @@ if(!$row_torneio){
   $semifinal = $row_torneio[6];
   $final = $row_torneio[7];
   $status_ = $row_torneio[8];
-  $id_torneio = $_GET["id_torneio"];
+  $id_noticia = $_GET["id_noticia"];
 }
 
 // $fabricante = '<option value="' . $rowfabricante[0] . '">' . utf8_encode($rowfabricante[1]) . '</option>';
