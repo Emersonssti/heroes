@@ -44,7 +44,7 @@
                         foreach ($db_heroes->query($sql_noticia) as $result_noticia){ 
                           ?>
                           
-                          <tr>
+                          <tr id="tr_noticia_<? echo $result_noticia[3]; ?>">
                             <td><? echo $result_noticia[0]?></td>
                             <td><? echo utf8_encode($result_noticia[1])?></td>
                             <td><? echo utf8_encode($result_noticia[2])?></td>
@@ -55,7 +55,7 @@
                               </button>
 
                               <!--EXCLUIR-->
-                              <button type="button" title="Excluir" class="btn btn-sm btn-icon" id="btexclui_noticia<? echo $result_noticia[3]; ?>" onclick="Excluir_Noticia('<? echo $result_noticia[0]; ?>');" >
+                              <button type="button" title="Excluir" class="btn btn-sm btn-icon" id="btexclui_noticia<? echo $result_noticia[3]; ?>" onclick="Excluir_Noticia('<? echo $result_noticia[3]; ?>');" >
                                 <span><i class="fa fa-trash fa-2x" style="color:#7366ff"  aria-hidden="true"></i></span>
                               </button>
 
