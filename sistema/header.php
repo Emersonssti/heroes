@@ -35,7 +35,6 @@
     <style>
       input{
         font-size:10px !important;
-        text-transform: uppercase;
       }
       label{
         font-size:12px !important;

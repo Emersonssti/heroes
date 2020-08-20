@@ -26,20 +26,35 @@
                 <div class="card">
                   <div class="card-body">
 
-                  <div class="row">
+               <div class="row">
+
                   <div class="col-md-10">
                       <div class="form-group">
                           <label>Nome Torneio</label>
                           <input class="form-control" id="torneio_nome" value="<? echo $nome;?>" maxlength="50" type="text">
                       </div>
                   </div>
-                
-                    <div class="col-md-2">
+
+                  <div class="col-md-2">
                       <div class="form-group">
                           <label>Centro de Vila</label>
                           <input class="form-control" id="torneio_th" maxlength="2" value="<? echo $th;?>" type="text">
                       </div>
                     </div>
+
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label>Descrição</label>
+                          <input class="form-control" id="torneio_descricao" value="<? echo $descricao;?>" maxlength="200" type="text">
+                      </div>
+                  </div>
+
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label>URL IMAGEM</label>
+                          <input class="form-control" id="torneio_url_img" value="<? echo $url_img;?>" maxlength="255" type="text">
+                      </div>
+                  </div>                 
 
                     <div class="col-md-3">
                       <div class="form-group">
