@@ -24,11 +24,14 @@ $("#gravar_torneio").click(function(){
     var FASE_GRUPO = $('#torneio_fase_grupo').val();
     var SEMIFINAL = $('#torneio_semifinal').val();
     var FINAL = $('#torneio_final').val();
+    var DESCRICAO = $('#torneio_descricao').val();
+    var URL_IMG = $('#torneio_url_img').val();
     var STATUS = $('#torneio_status').val();
    
-    $.ajax({ url:'torneio_grava.php?nome=' + NOME + '&th=' + TH + '&inicio_insc=' + INICIO_INSC + '&final_insc=' + FINAL_INSC+ '&classificatoria=' + CLASSIFICATORIA+ '&fase_grupo=' + FASE_GRUPO + '&semifinal=' + SEMIFINAL + '&final=' + FINAL + '&status=' + STATUS + '&id_torneio=' + ID_TORNEIO, cache: false }).done(function (txtstatus) {
+    $.ajax({ url:'torneio_grava.php?nome=' + NOME + '&th=' + TH + '&inicio_insc=' + INICIO_INSC + '&final_insc=' + FINAL_INSC+ '&classificatoria=' + CLASSIFICATORIA+ '&fase_grupo=' + FASE_GRUPO + '&semifinal=' + SEMIFINAL + '&final=' + FINAL + '&status=' + STATUS + '&id_torneio=' + ID_TORNEIO + '&descricao=' + DESCRICAO + '&url_img=' + URL_IMG, cache: false }).done(function (txtstatus) {
  
     
+        alert(txtstatus);
        if(txtstatus == 0){
         swal("Não foi possível salvar os dados, contate o suporte", '', 'error');
 

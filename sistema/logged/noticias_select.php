@@ -11,7 +11,6 @@ if(!$row_noticia){
   $url_fonte = "";
 
   $id_noticia = "";
-  
 }else{
   $titulo = $row_noticia[0];
   $data_postagem = $row_noticia[1];

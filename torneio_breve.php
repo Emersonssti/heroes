@@ -34,8 +34,10 @@
    DATE_FORMAT(INICIO_INSCRICAO, '%d/%m'),
    DATE_FORMAT(FINAL_INSCRICAO, '%d/%m'),
    DATE_FORMAT(INICIO_CLASSIFICATORIA, '%d/%m'),
-   DATE_FORMAT(DATA_FINAL, '%d/%m')
-   FROM torneio WHERE ID_STATUS = 2";
+   DATE_FORMAT(DATA_FINAL, '%d/%m'),
+   URL_IMG,
+   DESCRICAO
+   FROM torneio WHERE ID_STATUS = 4";
    foreach ($db_heroes->query($sql_torneio) as $result_torneio) {
 
 
@@ -45,7 +47,7 @@
                 <div class="donation-item">
                     <div class="row no-gutter equal-height">
                         <div class="col-md-7 col-sm-12">
-                            <div class="img-wrap"><img class="img-responsive" src="images/soccer/donation-item-img.jpg" alt="donation-item"></div>
+                            <div class="img-wrap"><img class="img-responsive" src="<? echo $result_torneio[5];?>" alt="donation-item"></div>
                         </div>
                         <div class="col-md-5 col-sm-12 position-relative">
                             <div class="info">
@@ -62,7 +64,7 @@
                                             <div class="bar"></div>
                                         </div>
                                     </div>
-                                    <p>Selvage mixtape coloring book, street art swag sriracha activated charcoal vegan hammock selfies distillery wayfarers dreamcatcher lyft beard.</p>
+                                    <p><? echo $result_torneio[6]?></p>
                                     <a href="#" class="btn small">Registrar</a>
                                 </div>
                             </div>
