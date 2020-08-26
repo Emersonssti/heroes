@@ -55,7 +55,7 @@
                         <a><span>Torneios</span></a>
                         <ul>
                             <li><a href="torneio_breve.php"><span>Em Breve</span></a></li>
-                            <li><a href="#"><span>Em Andamento</span></a></li>
+                            <li><a href="torneio_andamento.php"><span>Em Andamento</span></a></li>
                             <li><a href="#"><span>Encerrado</span></a></li>
                         </ul>
                     </li>
