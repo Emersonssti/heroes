@@ -107,6 +107,7 @@
                       <li><a href="jogador.php">Jogadores</a></li>
                       <li><a href="vila.php">Vilas</a></li>
                       <li><a href="torneio_list.php">Torneio</a></li>
+                      <li><a href="classificatoria_list.php">Classificatória</a></li>
                     </ul>
                   </li>
                   <li class="dropdown"><a class="nav-link menu-title link-nav" href="noticias_list.php" target="_blank"><i data-feather="volume"></i><span>Notícias</span></a></li>

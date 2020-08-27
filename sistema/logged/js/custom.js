@@ -88,6 +88,42 @@ $("#gravar_noticia").click(function(){
    
     })
  });  
+
+///////////////// Grava Classificatoria
+$("#gravar_classificatoria").click(function(){
+    var ID_CLASSIFICATORIA= $('#id_classificatoria').val();
+
+
+    $.ajax({ url:'classificatoria_grava.php?titulo=' + TITULO + '&data=' + DATA + '&fonte=' + FONTE + '&url_foto=' + URL_FOTO+ '&url_fonte=' + URL_FONTE + '&id_noticia=' + ID_NOTICIA, cache: false }).done(function (txtstatus) {
+ 
+    
+       if(txtstatus == 0){
+        swal("Não foi possível salvar os dados, contate o suporte", '', 'error');
+
+       }else if( txtstatus == 1){
+
+        swal("Notícia criada com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/noticias_list.php");
+        },delay);
+
+       }else if( txtstatus == 2){
+        swal("Registro Alterado com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/noticias_list.php");
+        },delay);
+       }
+       
+   
+    })
+ });  
+
+
+
+
+
  
  //Excluir Noticia
  function Excluir_Noticia(id) {

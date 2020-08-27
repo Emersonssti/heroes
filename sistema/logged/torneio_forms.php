@@ -97,6 +97,7 @@
                           <input class="form-control" id="torneio_final" value="<? echo $final;?>" type="date">
                         </div>
                     </div>
+                    
                     <div class="col-md-3">
                         <div class="form-group">
                           <label>Status</label>

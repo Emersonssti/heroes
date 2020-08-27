@@ -1,6 +1,6 @@
 <?
  
-$sql_status = "SELECT ID_STATUS, DESCRICAO FROM status_torneio ORDER BY DESCRICAO DESC";
+$sql_status = "SELECT ID_STATUS, DESCRICAO FROM status_torneio WHERE ID_STATUS IN (".$status.") ORDER BY DESCRICAO DESC";
 foreach ($db_heroes->query($sql_status) as $result_status) {
 
 ?>
