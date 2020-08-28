@@ -62,9 +62,9 @@
                                 <span><i class="fa fa-pencil fa-2x" style="color:#7366ff"  aria-hidden="true"></i></span>
                               </button>
 
-                              <!--INSCRIÇÕES-->
-                              <button type="button" data-toggle="modal" data-target=".torneio_inscricoes_<? echo $result_classificatoria[4]; ?>" title="Inscrições" class="btn btn-sm btn-icon" >
-                                <span><i class="fa fa-child fa-2x" style="color:#51bb25 "  aria-hidden="true"></i></span>
+                              <!--CHAVE-->
+                              <button type="button" title="Chave" class="btn btn-sm btn-icon" >
+                                <span><i class="fa fa-bars fa-2x" style="color:#51bb25 "  aria-hidden="true"></i></span>
                               </button>
                             </td>
                       </tr>

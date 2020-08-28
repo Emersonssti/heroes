@@ -9,12 +9,28 @@
                           </div>
                           <div class="modal-body">
                             <div class="row">
+                              <? $cont = 0?>
+                            <? $sql_inscricao = "SELECT 
+                       jogador.NOME, 
+                       vila.TAG_VILA,
+                       vila.NOME_VILA, 
+                       torneio_inscricoes.DATA
+                       FROM torneio_inscricoes
+                       INNER JOIN jogador_vila ON jogador_vila.ID_VILA = torneio_inscricoes.ID_VILA
+                       INNER JOIN jogador ON jogador.ID_JOGADOR = torneio_inscricoes.ID_JOGADOR
+                       INNER JOIN torneio ON torneio.ID_TORNEIO = torneio_inscricoes.ID_TORNEIO
+                       INNER JOIN vila ON vila.ID_VILA = torneio_inscricoes.ID_VILA
+                        WHERE torneio_inscricoes.ID_TORNEIO = '".$result_torneio[6]."' ORDER BY torneio_inscricoes.DATA
+                       ";
+                        foreach ($db_heroes->query($sql_inscricao) as $result_inscricao){ 
+                          $cont ++
+                          ?>
                                <div class="col-md-12">
                                   <div class="form-group">
-                                      <input class="form-control" disabled value="Emerson Santos - #254416725 - CHUQ NORRIZ - 15/08/2020 17:25 " type="text">
+                                      <input class="form-control" disabled value="<? echo $cont; ?> - <? echo utf8_encode($result_inscricao[0])?> - #<? echo $result_inscricao[1]?> - <? echo utf8_encode($result_inscricao[2])?> - <? echo $result_inscricao[3]?> " type="text">
                                     </div>
                                </div>
-                             
+                         <?}?>
                             </div>
                          
                           </div>
