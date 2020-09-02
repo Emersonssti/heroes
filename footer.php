@@ -1,22 +1,7 @@
 
     <!--FOOTER BEGIN-->
     <footer class="footer">
-    <div class="footer-menu-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="footer-menu">
-                        <li class="active"><a href="#"><span>Home</span></a></li>
-                        <li><a href="#"><span>Sobre</span></a></li>
-                        <li><a href="#"><span>Notícias</span></a></li>
-                        <li><a href="#"><span>Assista</span></a></li>
-                        <li><a href="#"><span>Comunidade</span></a></li>
-                    </ul>	
-                    <a href="#top" class="foot-up"><span>Início <i class="fa fa-caret-up" aria-hidden="true"></i></span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </footer>
 <!--FOOTER END-->
 

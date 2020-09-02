@@ -1,7 +1,7 @@
 <? include "header.php"; ?>
 
 
-    <div  clas="facet_sidebar" style="background: url(images/slider.png) no-repeat; background-size: cover;">
+    <div  clas="facet_sidebar" style="background: url(images/slider.jpg) no-repeat; background-size: cover;">
     <div class="main-slider">
         <div id="main-slider" data-interval="4000">
             <div class="" role="listbox">
@@ -563,20 +563,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h4>success story <br>began here</h4>
-                <p>Pabst irony tattooed, synth sriracha selvage pok pok. Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep mixtape semiotics brunch. </p>
+                <h4>um Torneio da Comunidade <br>para a Comunidade!</h4>
+                <p>Trazemos o 1v1 no mais alto nível, dando oportunidade para que todos possam mostrar toda a sua habilidade individual ;-)</p>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="icon"><img src="images/common/success-icon.png" alt="succes-icon"></div>
-                        <div class="title">Legendary</div>
-                        <p>Next level paleo taxidermy, bespoke messenger bag leggings occupy food truck. </p>
+                        <div class="icon"><img src="images/common/success-icon.png" width="36px" height="38px" alt="succes-icon"></div>
+                        <div class="title">Competitividade</div>
+                        <p>Onde os melhores jogadores do Brasil se encontram para duelos incríveis no 1v1. </p>
                     </div>
                     <div class="col-md-6">
-                        <div class="icon"><img src="images/common/success-icon1.png" alt="succes-icon"></div>
-                        <div class="title">Legendary</div>
-                        <p>Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep v mixtape semiotics brunch. </p>
+                        <div class="icon"><img src="images/common/success-icon1.png" width="36px" height="38px" alt="succes-icon"></div>
+                        <div class="title">Premiações</div>
+                        <p> Busque o posto de melhor jogador da comunidade e obtenha premiações incríveis! </p>
                     </div>
-                    <div class="col-md-12"><a href="trophies.html" class="booking">Cadastre-se</a></div>
+                    <div class="col-md-12"><a href="#" class="booking">Cadastre-se</a></div>
                 </div>
             </div>
             <div class="col-md-5 position-relative">
