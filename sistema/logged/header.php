@@ -37,10 +37,12 @@
     <!--Custom-->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 
- 
-
 
   </head>
+  <style>
+    option{
+    font-size:10px;}
+  </style>
   <body class="dark-only">
     <!-- Loader starts-->
     <div class="loader-wrapper">

@@ -27,8 +27,11 @@ $("#gravar_torneio").click(function(){
     var DESCRICAO = $('#torneio_descricao').val();
     var URL_IMG = $('#torneio_url_img').val();
     var STATUS = $('#torneio_status').val();
+    var PRIMEIRO = $('#torneio_primeiro').val();
+    var SEGUNDO = $('#torneio_segundo').val();
+    var TERCEIRO = $('#torneio_terceiro').val();
    
-    $.ajax({ url:'torneio_grava.php?nome=' + NOME + '&th=' + TH + '&inicio_insc=' + INICIO_INSC + '&final_insc=' + FINAL_INSC+ '&classificatoria=' + CLASSIFICATORIA+ '&fase_grupo=' + FASE_GRUPO + '&semifinal=' + SEMIFINAL + '&final=' + FINAL + '&status=' + STATUS + '&id_torneio=' + ID_TORNEIO + '&descricao=' + DESCRICAO + '&url_img=' + URL_IMG, cache: false }).done(function (txtstatus) {
+    $.ajax({ url:'torneio_grava.php?nome=' + NOME + '&th=' + TH + '&inicio_insc=' + INICIO_INSC + '&final_insc=' + FINAL_INSC+ '&classificatoria=' + CLASSIFICATORIA+ '&fase_grupo=' + FASE_GRUPO + '&semifinal=' + SEMIFINAL + '&final=' + FINAL + '&status=' + STATUS + '&id_torneio=' + ID_TORNEIO + '&descricao=' + DESCRICAO + '&url_img=' + URL_IMG+ '&primeiro=' + PRIMEIRO + '&segundo=' + SEGUNDO + '&terceiro=' + TERCEIRO, cache: false }).done(function (txtstatus) {
  
        if(txtstatus == 0){
         swal("Não foi possível salvar os dados, contate o suporte", '', 'error');

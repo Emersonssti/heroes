@@ -102,11 +102,37 @@
                         <div class="form-group">
                           <label>Status</label>
                           <select class="form-control " id="torneio_status">
-                          <? include "combo/combo_status.php"; ?>
+                          <? $status = "1,2,3,4"; include "combo/combo_status.php"; ?>
                           </select>
                         </div>
                     </div>
-
+                    <div class="col-md-4">
+                        <div class="form-group">
+                          <label>Primeiro</label>
+                          <select class="form-control " id="torneio_primeiro">
+                            <? echo $primeiro?>
+                          <? include "combo/jogador_torneio.php"; ?>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                          <label>Segundo</label>
+                          <select class="form-control " id="torneio_segundo">
+                          <? echo $segundo?>
+                          <? include "combo/jogador_torneio.php"; ?>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                          <label>Terceiro</label>
+                          <select class="form-control " id="torneio_terceiro">
+                          <? echo $terceiro?>
+                          <? include "combo/jogador_torneio.php"; ?>
+                          </select>
+                        </div>
+                    </div>
                     <div class="col-md-12">
                       <div class="form-group" style="float:right;">
                         <a href="torneio_list.php"> <button   class="btn btn-danger">Cancelar</button> </a>
