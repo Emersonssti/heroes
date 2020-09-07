@@ -27,7 +27,7 @@
                           ?>
                                <div class="col-md-12">
                                   <div class="form-group">
-                                      <input class="form-control" disabled value="<? echo $cont; ?> - <? echo utf8_encode($result_inscricao[0])?> - #<? echo $result_inscricao[1]?> - <? echo utf8_encode($result_inscricao[2])?> - <? echo $result_inscricao[3]?> " type="text">
+                                      <input class="form-control" disabled value="<? echo $cont; ?> - <? echo $result_inscricao[0]?> - #<? echo $result_inscricao[1]?> - <? echo $result_inscricao[2]?> - <? echo $result_inscricao[3]?> " type="text">
                                     </div>
                                </div>
                          <?}?>

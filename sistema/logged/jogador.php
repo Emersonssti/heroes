@@ -34,18 +34,18 @@
                           </tr>
                         </thead>
                         <tbody>
-                       <?php $sql_jogador = "SELECT NOME, DATA_CADASTRO, DATA_NASCIMENTO, EMAIL, TWITTER, ID_STATUS, ID_JOGADOR FROM jogador";
+                       <? $sql_jogador = "SELECT NOME, DATA_CADASTRO, DATA_NASCIMENTO, EMAIL, TWITTER, ID_STATUS, ID_JOGADOR FROM jogador";
                         foreach ($db_heroes->query($sql_jogador) as $result_jogador){ 
                           ?>
 
                           <? include "jogador_modal.php"?>
                           
                           <tr>
-                            <td><?php echo $result_jogador[0]?></td>
-                            <td><?php echo $result_jogador[1]?></td>
-                            <td><?php echo $result_jogador[2]?></td>
-                            <td><?php echo $result_jogador[3]?></td>
-                            <td><?php echo $result_jogador[4]?></td>
+                            <td><? echo $result_jogador[0];?></td>
+                            <td><? echo $result_jogador[1]?></td>
+                            <td><? echo $result_jogador[2]?></td>
+                            <td><? echo $result_jogador[3]?></td>
+                            <td><? echo $result_jogador[4]?></td>
                             <td><button class="btn btn-pill btn-success" type="button" data-toggle="modal" data-target=".jogador_modal_<? echo $result_jogador[6]; ?>" style="width:80%;">Vilas</button></td>
                           </tr>
 <?php } ?>

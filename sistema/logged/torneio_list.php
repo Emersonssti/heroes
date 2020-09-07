@@ -53,11 +53,11 @@
                           <? include "torneio_inscricoes.php"?>
                           
                           <tr>
-                            <td><? echo utf8_encode($result_torneio[0])?></td>
+                            <td><? echo $result_torneio[0]?></td>
                             <td><? echo $result_torneio[1]?></td>
                             <td><? echo $result_torneio[2].' - '.$result_torneio[3]?></td>
                             <td><? echo $result_torneio[4]?></td>
-                            <td><? echo utf8_encode($result_torneio[5])?></td>
+                            <td><? echo $result_torneio[5]?></td>
                             <td>
                               <!--EDITAR-->
                               <button type="button" title="Editar" class="btn btn-sm btn-icon" onclick="location.href='torneio_forms.php?id_torneio=<? echo $result_torneio[6]; ?>';" >

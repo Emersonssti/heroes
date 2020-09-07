@@ -44,10 +44,10 @@
                           ?>
                           
                           <tr>
-                            <td><?php echo utf8_encode($result_jogador[0]);?></td>
-                            <td><?php echo $result_jogador[1];?></td>
-                            <td><?php echo $result_jogador[2];?></td>
-                            <td><?php echo utf8_encode($result_jogador[3]);?></td>
+                            <td><? echo $result_jogador[0];?></td>
+                            <td><? echo $result_jogador[1];?></td>
+                            <td><? echo $result_jogador[2];?></td>
+                            <td><? echo $result_jogador[3];?></td>
                           </tr>
 <? } ?>
                         </tbody>
