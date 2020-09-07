@@ -1,6 +1,6 @@
 <?
 
-$sql_torneio = $db_heroes->prepare("SELECT NOME, TH, INICIO_INSCRICAO, FINAL_INSCRICAO, INICIO_CLASSIFICATORIA, INICIO_FASE_GRUPO, INICIO_SEMIFINAL, DATA_FINAL, ID_STATUS, DESCRICAO, URL_IMG FROM torneio WHERE ID_TORNEIO = '" . addslashes($_GET["id_torneio"]) . "' ");
+$sql_torneio = $db_heroes->prepare("SELECT NOME, TH, INICIO_INSCRICAO, FINAL_INSCRICAO, INICIO_CLASSIFICATORIA, INICIO_FASE_GRUPO, INICIO_SEMIFINAL, DATA_FINAL, ID_STATUS, DESCRICAO, URL_IMG, PRIMEIRO, SEGUNDO, TERCEIRO FROM torneio WHERE ID_TORNEIO = '" . addslashes($_GET["id_torneio"]) . "' ");
 $sql_torneio->execute();
 $row_torneio = $sql_torneio->fetch(PDO::FETCH_NUM);
 
@@ -29,7 +29,54 @@ if(!$row_torneio){
   $status_ = $row_torneio[8];
   $descricao = $row_torneio[9];
   $url_img = $row_torneio[10];
+
   $id_torneio = $_GET["id_torneio"];
+
+
+$sql_primeiro= $db_heroes->prepare("SELECT 
+torneio_inscricoes.ID_JOGADOR,
+torneio_inscricoes.ID_VILA, 
+jogador.NOME,
+vila.NOME_VILA
+FROM torneio_inscricoes 
+INNER JOIN jogador ON jogador.ID_JOGADOR = torneio_inscricoes.ID_JOGADOR
+INNER JOIN vila ON vila.ID_VILA = torneio_inscricoes.ID_VILA
+WHERE torneio_inscricoes.ID_TORNEIO = '".$id_torneio."' AND torneio_inscricoes.ID_JOGADOR = '".$row_torneio[11]."' ");
+$sql_primeiro->execute();
+$row_primeiro = $sql_primeiro->fetch(PDO::FETCH_NUM);
+
+$sql_segundo= $db_heroes->prepare("SELECT 
+torneio_inscricoes.ID_JOGADOR,
+torneio_inscricoes.ID_VILA, 
+jogador.NOME,
+vila.NOME_VILA
+FROM torneio_inscricoes 
+INNER JOIN jogador ON jogador.ID_JOGADOR = torneio_inscricoes.ID_JOGADOR
+INNER JOIN vila ON vila.ID_VILA = torneio_inscricoes.ID_VILA
+WHERE torneio_inscricoes.ID_TORNEIO = '".$id_torneio."' AND torneio_inscricoes.ID_JOGADOR = '".$row_torneio[12]."' ");
+$sql_segundo->execute();
+$row_segundo = $sql_segundo->fetch(PDO::FETCH_NUM);
+
+$sql_terceiro= $db_heroes->prepare("SELECT 
+torneio_inscricoes.ID_JOGADOR,
+torneio_inscricoes.ID_VILA, 
+jogador.NOME,
+vila.NOME_VILA
+FROM torneio_inscricoes 
+INNER JOIN jogador ON jogador.ID_JOGADOR = torneio_inscricoes.ID_JOGADOR
+INNER JOIN vila ON vila.ID_VILA = torneio_inscricoes.ID_VILA
+WHERE torneio_inscricoes.ID_TORNEIO = '".$id_torneio."' AND torneio_inscricoes.ID_JOGADOR = '".$row_torneio[13]."' ");
+$sql_terceiro->execute();
+$row_terceiro = $sql_terceiro->fetch(PDO::FETCH_NUM);
+
+
+
+
+$primeiro = '<option value = "'.$row_torneio[11].'">'.$row_primeiro[2].' - '.$row_primeiro[3].'</option>';
+$segundo = '<option value = "'.$row_torneio[12].'">'.$row_segundo[2].' - '.$row_segundo[3].'</option>';
+$terceiro = '<option value = "'.$row_torneio[13].'">'.$row_terceiro[2].' - '.$row_terceiro[3].'</option>';
+
+
 }
 
 // $fabricante = '<option value="' . $rowfabricante[0] . '">' . utf8_encode($rowfabricante[1]) . '</option>';
