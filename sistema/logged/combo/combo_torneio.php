@@ -1,3 +1,4 @@
+<option></option>
 <?
  
 $sql_torneio= "SELECT ID_TORNEIO, NOME FROM torneio WHERE ID_STATUS IN (".$status_torneio.")";

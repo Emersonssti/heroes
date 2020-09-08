@@ -1,3 +1,4 @@
+<option value=""></option>
 <?
  
 $sql_status = "SELECT ID_STATUS, DESCRICAO FROM status_torneio WHERE ID_STATUS IN (".$status.") ORDER BY DESCRICAO DESC";

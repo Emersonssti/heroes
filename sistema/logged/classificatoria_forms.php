@@ -15,8 +15,6 @@
               </div>
             </div>
           </div>
-          
-
 
           <!-- Container-fluid starts-->
           <div class="container-fluid" >
@@ -31,7 +29,7 @@
                   <div class="col-md-6">
                       <div class="form-group">
                           <label>Nome Classificatória</label>
-                          <input class="form-control" id="classificatoria_nome" value="<?// echo $nome;?>" maxlength="50" type="text">
+                          <input class="form-control" id="classificatoria_nome" value="<? echo $nome;?>" maxlength="50" type="text">
                       </div>
                   </div>
 
@@ -47,7 +45,7 @@
                     <div class="col-md-3">
                       <div class="form-group">
                           <label>Data</label>
-                          <input class="form-control" id="classificatoria_data" value="<? echo $inicio_inscricao;?>" type="date">
+                          <input class="form-control" id="classificatoria_data" value="<? echo $data;?>" type="date">
                       </div>
                     </div>
 

@@ -1,20 +1,29 @@
 <?
 
-$sql_torneio = $db_heroes->prepare("SELECT NOME, TH, INICIO_INSCRICAO, FINAL_INSCRICAO, INICIO_CLASSIFICATORIA, INICIO_FASE_GRUPO, INICIO_SEMIFINAL, DATA_FINAL, ID_STATUS, DESCRICAO, URL_IMG FROM torneio WHERE ID_TORNEIO = '" . addslashes($_GET["id_classificatoria"]) . "' ");
+$sql_torneio = $db_heroes->prepare("SELECT 
+classificatoria.NOME, 
+classificatoria.DATA_CLASSIFICATORIA,
+torneio.ID_TORNEIO,
+torneio.ID_STATUS
+FROM classificatoria 
+INNER JOIN torneio ON torneio.ID_TORNEIO = classificatoria.ID_TORNEIO
+WHERE classificatoria.ID_CLASSIFICATORIA = '" . addslashes($_GET["id_classificatoria"]) . "' ");
 $sql_torneio->execute();
 $row_torneio = $sql_torneio->fetch(PDO::FETCH_NUM);
 
 if(!$row_torneio){
   $nome = "";
-  $th = "";
-  $inicio_inscricao = "";
-  $status_ = "";
+  $data = "";
   $torneio_ = "";
+  $status_ = "";
 }else{
   $id_classificatoria = $_GET["id_classificatoria"];
   $nome = $row_torneio[0];
-  $th = $row_torneio[1];
+  $data = $row_torneio[1];
   $torneio_ = $row_torneio[2];
+  $status_ = $row_torneio[3];
+
+
 
 }
 
