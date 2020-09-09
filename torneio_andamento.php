@@ -1,6 +1,10 @@
 <? include "header.php"; ?>
 
-
+<?
+$star1 = '<i class="fa fa-star star1"></i>';
+$star2 = '<i class="fa fa-star star2"></i> <i class="fa fa-star star2">';
+$star3 = '<i class="fa fa-star star3"></i> <i class="fa fa-star star3"></i> <i class="fa fa-star star3"></i>';
+?>
     <!--BREADCRUMBS BEGIN-->
 <section class="image-header">
     <div class="container">
@@ -53,6 +57,16 @@
             .direita{
             border: 1px solid black;border-bottom:none;border-left:none;
             }
+
+            .star1{
+                color:red;
+            }
+            .star2{
+                color:yellow;
+            }
+            .star3{
+                color:green;
+            }
         </style>
 
             <div class="tab-content">
@@ -74,7 +88,7 @@
                         <tbody>
 
                         <tr>
-                            <td style="background-color: white !important;">Team 1 - <i class="fa fa-star"></i> 98%</td>
+ <!--JOGADOR 1-->           <td style="background-color: white !important;"> JOGADOR 1 - <? echo $star3;?> 100%</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -82,13 +96,13 @@
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-                            <td style="background-color: white !important;">passou 1 - 8%</td>
+   <!--OITAVAS 1-->          <td style="background-color: white !important;">OITAVAS 1 </td>
                             <td></td>
                             <td></td>
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 2</td>
+<!--JOGADOR 2-->            <td style="background-color: white !important;" colspan="1">JOGADOR 2 - <? echo $star2;?> </td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -98,26 +112,26 @@
                         <tr>
                             <td></td>
                             <td></td>
-                            <td style="background-color: white !important;">passou Semifinal</td>
+    <!--SEMIFINAL 1-->       <td style="background-color: white !important;">Semifinal 1</td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 3</td>
+<!--JOGADOR 3-->            <td style="background-color: white !important;" colspan="1">JOGADOR 3 - <? echo $star1;?>30%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-                            <td style="background-color: white !important;">passou 2 - 8%</td>
+       <!--OITAVAS 2-->     <td style="background-color: white !important;">OITAVAS 2</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                             
                         </tr>
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 4</td>
+<!--JOGADOR 4-->            <td style="background-color: white !important;" colspan="1">JOGADOR 4</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -126,11 +140,11 @@
 
                         <tr>
                             <td colspan="3"></td>
-                            <td style="background-color: white !important;">FINAL 1</td>
+             <!-- FINAL 1--><td style="background-color: white !important;">FINAL 1</td>
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 5 - <i class="fa fa-star"></i> 98%</td>
+<!--JOGADOR 5-->            <td style="background-color: white !important;" colspan="1">JOGADOR 5</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -138,13 +152,13 @@
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-                            <td style="background-color: white !important;">passou 1 - 8%</td>
+          <!--OITAVAS 1-->  <td style="background-color: white !important;">OITAVAS 3</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;">Team 6</td>
+<!--JOGADOR 6-->            <td style="background-color: white !important;">JOGADOR 6</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -154,13 +168,13 @@
                         <tr>
                             <td ></td>
                             <td></td>
-                            <td style="background-color: white !important;">passou Semifinal</td>
+    <!--SEMIFINAL 2-->      <td style="background-color: white !important;">Semifinal 2</td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" >Team 7</td>
+<!--JOGADOR 7-->            <td style="background-color: white !important;" >JOGADOR 7</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -168,14 +182,14 @@
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-                            <td style="background-color: white !important;">passou 2 - 8%</td>
+       <!--OITAVAS 1-->     <td style="background-color: white !important;">OITAVAS 4</td>
                             <td></td>
                             <td></td>
                             
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;">Team 8</td>
+<!--JOGADOR 8-->         <td style="background-color: white !important;">JOGADOR 8</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -183,18 +197,18 @@
 
                         <tr><td colspan="4"></td> </tr>
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 9 - <i class="fa fa-star"></i> 98%</td>
+<!--JOGADOR 9-->            <td style="background-color: white !important;" colspan="1">JOGADOR 9</td>
                             <td colspan="3"></td>
                         </tr>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-                            <td style="background-color: white !important;">passou 1 - 8%</td>
+<!--OITAVAS 5-->            <td style="background-color: white !important;">OITAVAS 5</td>
                             <td colspan="2"></td>
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 10</td>
+  <!--JOGADOR 10-->         <td style="background-color: white !important;" colspan="1">JOGADOR 10</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -203,13 +217,13 @@
 
                         <tr>
                             <td colspan="2"></td>
-                            <td style="background-color: white !important;">passou Semifinal</td>
+      <!--SEMIFINAL 3-->    <td style="background-color: white !important;">Semifinal 3</td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;">Team 11</td>
+  <!--JOGADOR 11-->         <td style="background-color: white !important;">JOGADOR 11</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -217,14 +231,14 @@
                         
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-                            <td style="background-color: white !important;">passou 2 - 8%</td>
+         <!--OITAVAS 6-->   <td style="background-color: white !important;">OITAVAS 6</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                             
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 12</td>
+<!--JOGADOR 12 -->         <td style="background-color: white !important;" colspan="1">JOGADOR 12</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -236,7 +250,7 @@
                             <td style="background-color: white !important;">FINAL 2</td>
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 13</td>
+<!--JOGADOR 13-->           <td style="background-color: white !important;">JOGADOR 13</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -245,12 +259,12 @@
 
                         <tr>
                             <td  style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-                            <td style="background-color: white !important;">passou 1 - 8%</td>
+        <!--OITAVAS 7-->    <td style="background-color: white !important;">OITAVAS 7</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="background-color: white !important;">Team 14 - <i class="fa fa-star"></i> 98%</td>
+ <!--JOGADOR 14-->          <td style="background-color: white !important;">JOGADOR 14</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -259,13 +273,13 @@
                         <tr>
                             <td></td>
                             <td></td>
-                            <td style="background-color: white !important;"> SEMI4</td>
+          <!--SEMIFINAL 4--><td style="background-color: white !important;"> Semifinal 4</td>
                             <td></td>
                         </tr>
 
 
                         <tr>
-                            <td style="background-color: white !important;" colspan="1">Team 15</td>
+<!--JOGADOR 15-->        <td style="background-color: white !important;" colspan="1">JOGADOR 15</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td ></td>
                             <td></td>
@@ -273,14 +287,13 @@
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-                            <td style="background-color: white !important;">passou Semifinal</td>
+        <!--OITAVAS 8-->       <td style="background-color: white !important;">OITAVAS 8</td>
                             <td></td>
                             <td></td>
-
                         </tr>
 
                         <tr>
-                            <td style="background-color: white !important;" >Team 16</td>
+<!--JOGADOR 16-->           <td style="background-color: white !important;" >JOGADOR 16</td> 
                             <td style="background-color: #f7f7f7;"></td>
                             <td></td>
                             <td></td>
@@ -288,8 +301,7 @@
                         
 
                         
-                    
-                    
+    
 
                         </tbody>
                     </table>
