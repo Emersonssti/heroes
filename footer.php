@@ -5,7 +5,9 @@
 </footer>
 <!--FOOTER END-->
 
-    <script type="text/javascript" src="js/library/jquery.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" src="js/library/jquery.js"></script>
 <script type="text/javascript" src="js/library/jquery-ui.js"></script>
 <script type="text/javascript" src="js/library/bootstrap.js"></script>
 <script type="text/javascript" src="js/library/jquery.sticky.js"></script>
@@ -67,6 +69,9 @@
 <script type="text/javascript" src="js/main.js"></script>
 
 <script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+
+<script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 
 

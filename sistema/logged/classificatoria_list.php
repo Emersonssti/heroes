@@ -52,10 +52,10 @@
                           <? include "torneio_inscricoes.php"?>
                           
                           <tr>
-                            <td><? echo utf8_encode($result_classificatoria[0])?></td>
-                            <td><? echo utf8_encode($result_classificatoria[1])?></td>
+                            <td><? echo $result_classificatoria[0]?></td>
+                            <td><? echo $result_classificatoria[1]?></td>
                             <td><? echo $result_classificatoria[2]?></td>
-                            <td><? echo utf8_encode($result_classificatoria[3])?></td>
+                            <td><? echo $result_classificatoria[3]?></td>
                             <td>
                               <!--EDITAR-->
                               <button type="button" title="Editar" class="btn btn-sm btn-icon" onclick="location.href='classificatoria_forms.php?id_classificatoria=<? echo $result_classificatoria[4]; ?>';" >

@@ -65,7 +65,7 @@
                                         </div>
                                     </div>
                                     <p><? echo $result_torneio[6]?></p>
-                                    <a href="#" class="btn small">Registrar</a>
+                                    <!-- <a href="#" class="btn small">Registrar</a> -->
                                 </div>
                             </div>
                         </div>

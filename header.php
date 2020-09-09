@@ -47,20 +47,17 @@
                     <li class="active">
                         <a href="index.php"><span>Home</span></a>
                     </li>
-                    <li>
-                        <a href="#"><span>Sobre</span></a>
-                    </li>
                     <li><a href="noticias.php"><span>Notícias</span></a></li>
                     <li>
                         <a><span>Torneios</span></a>
                         <ul>
                             <li><a href="torneio_breve.php"><span>Em Breve</span></a></li>
                             <li><a href="torneio_andamento.php"><span>Em Andamento</span></a></li>
-                            <li><a href="#"><span>Encerrado</span></a></li>
+                            <li><a id="encerrado" href="#"><span>Encerrado</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span>Assista</span></a></li>
-                    <li><a href="#"><span>Comunidade</span></a></li>
+                    <li><a id="assista" href="#"><span>Assista</span></a></li>
+                    <li><a id="comunidade" href="#"><span>Comunidade</span></a></li>
               
                 </ul>
             </div>       
