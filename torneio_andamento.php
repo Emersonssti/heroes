@@ -854,7 +854,7 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                         <tbody>
 
                         <tr>
- <!--JOGADOR 1-->           <td style="background-color: white !important;">burlolkek</td>
+ <!--JOGADOR 1-->           <td style="background-color: white !important;">BRUNOSLB190</td>
                             <td></td>
                             <td></td>
                             <td></td>
