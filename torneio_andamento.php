@@ -40,15 +40,14 @@ $divisoes = '<table>
     <div class="container">
     <h2>Classificatórias</h2>
 
-  
         <div class="row">
 
 
         <ul class="nav tab-filters">
 
-            <li class="active"><a data-toggle="tab" href="#class1">Classificatória 01</a></li>
+            <li class=""><a data-toggle="tab" href="#class1">Classificatória 01</a></li>
             <li class=""><a data-toggle="tab" href="#class2">Classificatória 02</a></li>
-            <li class=""><a data-toggle="tab" href="#class3">Classificatória 03</a></li>
+            <li class="active"><a data-toggle="tab" href="#class3">Classificatória 03</a></li>
             <li class=""><a data-toggle="tab" href="#class4">Classificatória 04</a></li>
             <li class=""><a data-toggle="tab" href="#class5">Classificatória 05</a></li>
             <li class=""><a data-toggle="tab" href="#class6">Classificatória 06</a></li>
@@ -87,7 +86,7 @@ $divisoes = '<table>
             <div class="tab-content">
 
             <!--Classificatória 1 --------------->
-                <div id="class1" class="tab-pane fade in active">
+                <div id="class1" class="tab-pane fade">
                     <h4>Classificatória 01 - DATA: 09/09 às 19h BRT</h4>
                     <div class="row">
       
@@ -405,7 +404,7 @@ $divisoes = '<table>
 
                         <tr>
                             <td colspan="3"></td>
-             <!-- FINAL 1--><td style="background-color: yellow !important;">Heimdall Sama <? echo $derrota?> <? echo $vitoria?> <? echo $derrota?>  </td>
+             <!-- FINAL 1--><td style="background-color: #f1c40f !important;">Heimdall Sama <? echo $derrota?> <? echo $vitoria?> <? echo $derrota?>  </td>
                         </tr>
 
                         <tr>
@@ -512,7 +511,7 @@ $divisoes = '<table>
                             <td></td>
                             <td></td>
                             <td></td>
-     <!--Final 2-->         <td style="background-color: green !important;"> 女神プリシリア❤ <? echo $vitoria?> <? echo $derrota?> <? echo $vitoria?></td>
+     <!--Final 2-->         <td style="background-color: #2ecc71 !important;"> 女神プリシリア❤ <? echo $vitoria?> <? echo $derrota?> <? echo $vitoria?></td>
 
                         <tr>
 <!--JOGADOR 13-->           <td style="background-color: white !important;"> 女神プリシリア❤</td>
@@ -575,7 +574,7 @@ $divisoes = '<table>
                
   
   <!--Classificatória 3---------------->
-                <div id="class3" class="tab-pane fade">
+                <div id="class3" class="tab-pane fade in active">
                     <h4>Classificatória 03 - DATA: 10/09 às 19h BRT</h4>
                     <div class="row">
 					
