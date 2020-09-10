@@ -8,6 +8,15 @@ $star3 = '<i class="fa fa-star star3"></i> <i class="fa fa-star star3"></i> <i c
 $vitoria = '<i style="color:green" class="fa fa-check-square"></i>';
 $derrota = '<i  style="color:red" class="fa fa-square"></i>';
 
+$divisoes = '<table>
+                    <tr>
+                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
+                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão Grupo A</th>
+                    <th width="20%" style=" background-color:#f39c12">2ª Divisão Grupo B</th>
+                    <th width="20%" style="background-color: #e67e22;">3ª Divisão Grupo A</th>
+                    <th width="20%" style="background-color: #c0392b;">3ª Divisão Grupo B</th>
+                    </tr>
+             </table>'
 ?>
     <!--BREADCRUMBS BEGIN-->
 <section class="image-header">
@@ -81,15 +90,9 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class1" class="tab-pane fade in active">
                     <h4>Classificatória 01 - DATA: 09/09 às 19h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+      
+					<? echo $divisoes; ?>
+	  
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -332,15 +335,9 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class2" class="tab-pane fade ">
                     <h4>Classificatória 02 - DATA: 09/09 às 21h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+                 
+				 <? echo $divisoes;?>
+				 
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -581,15 +578,9 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class3" class="tab-pane fade">
                     <h4>Classificatória 03 - DATA: 10/09 às 19h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+					
+						<? echo $divisoes;?>
+				 
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -830,15 +821,7 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class4" class="tab-pane fade">
                     <h4>Classificatória 04 - DATA: 10/09 às 21h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+						<? echo $divisoes;?>
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -1078,15 +1061,7 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class5" class="tab-pane fade">
                     <h4>Classificatória 05 - DATA: 11/09 às 19h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+						<? echo $divisoes;?>
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -1326,15 +1301,7 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class6" class="tab-pane fade">
                     <h4>Classificatória 06 - DATA: 11/09 às 21h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+						<? echo $divisoes;?>
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -1574,15 +1541,7 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class7" class="tab-pane fade">
                     <h4>Classificatória 07 - DATA: 12/09 às 19h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+						<? echo $divisoes;?>
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
@@ -1822,15 +1781,7 @@ $derrota = '<i  style="color:red" class="fa fa-square"></i>';
                 <div id="class8" class="tab-pane fade">
                     <h4>Classificatória 08 - DATA: 12/09 às 21h BRT</h4>
                     <div class="row">
-                    <table>
-                    <tr>
-                    <th width="20%" style="background-color: #2ecc71 !important;">1ª Divisão</th>
-                    <th width="20%" style=" background-color:#f1c40f">2ª Divisão</th>
-                    <th width="20%" style=" background-color:#f39c12">3ª Divisão</th>
-                    <th width="20%" style="background-color: #e67e22;">4ª Divisão</th>
-                    <th width="20%" style="background-color: #c0392b;">5ª Divisão</th>
-                    </tr>
-                    </table>
+						<? echo $divisoes;?>
                     </div>
                     <div class="row">
                     <table class="table table-sm table-bordered">
