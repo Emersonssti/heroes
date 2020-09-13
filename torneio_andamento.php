@@ -50,9 +50,9 @@ $divisoes = '<table>
             <li class=""><a data-toggle="tab" href="#class3">Classificatória 03</a></li>
             <li class=""><a data-toggle="tab" href="#class4">Classificatória 04</a></li>
             <li class=""><a data-toggle="tab" href="#class5">Classificatória 05</a></li>
-            <li class="active"><a data-toggle="tab" href="#class6">Classificatória 06</a></li>
+            <li class=""><a data-toggle="tab" href="#class6">Classificatória 06</a></li>
             <li class=""><a data-toggle="tab" href="#class7">Classificatória 07</a></li>
-            <li class=""><a data-toggle="tab" href="#class8">Classificatória 08</a></li>
+            <li class="active"><a data-toggle="tab" href="#class8">Classificatória 08</a></li>
 
         </ul>
 
@@ -1296,7 +1296,7 @@ $divisoes = '<table>
 
 
   <!--Classificatória 6 ------------------------------------------------------------------------------->
-                <div id="class6" class="tab-pane fade in active">
+                <div id="class6" class="tab-pane fade">
                     <h4>Classificatória 06 - DATA: 11/09 às 21h BRT</h4>
                     <div class="row">
 						<? echo $divisoes;?>
@@ -1536,7 +1536,7 @@ $divisoes = '<table>
 
 
   <!--Classificatória 7 ------------------------------------------------------------------------------->
-                <div id="class7" class="tab-pane fade">
+                <div id="class7" class="tab-pane fade ">
                     <h4>Classificatória 07 - DATA: 12/09 às 19h BRT</h4>
                     <div class="row">
 						<? echo $divisoes;?>
@@ -1555,7 +1555,7 @@ $divisoes = '<table>
                         <tbody>
 
                         <tr>
- <!--JOGADOR 1-->           <td style="background-color: white !important;">Mayhem</td>
+ <!--JOGADOR 1-->           <td style="background-color: white !important;">Mayhem <? echo $star2; ?> 96%</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -1563,13 +1563,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-   <!--OITAVAS 1-->          <td style="background-color: white !important;"></td>
+   <!--OITAVAS 1-->          <td style="background-color: white !important;">Mayhem <? echo $star2; ?> 86%</td>
                             <td></td>
                             <td></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 2-->            <td style="background-color: white !important;">Pedrinho</td>
+<!--JOGADOR 2-->            <td style="background-color: white !important;">Pedrinho <? echo $star2; ?> 65%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -1579,7 +1579,7 @@ $divisoes = '<table>
                         <tr>
                             <td></td>
                             <td></td>
-    <!--SEMIFINAL 1-->       <td style="background-color: white !important;"></td>
+    <!--SEMIFINAL 1-->       <td style="background-color: white !important;"> Mayhem <? echo $vitoria; ?> <? echo $derrota; ?> <? echo $vitoria; ?></td>
                             <td></td>
 
                         </tr>
@@ -1592,13 +1592,13 @@ $divisoes = '<table>
                         </tr>
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-       <!--OITAVAS 2-->     <td style="background-color: white !important;"></td>
+       <!--OITAVAS 2-->     <td style="background-color: white !important;">marinaul <? echo $star2; ?> 78%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                             
                         </tr>
                         <tr>
-<!--JOGADOR 4-->            <td style="background-color: white !important;">Tuga ⭐⭐⭐</td>
+<!--JOGADOR 4-->            <td style="background-color: white !important;">Tuga ⭐⭐⭐ <b>(WO)</b> </td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1607,11 +1607,11 @@ $divisoes = '<table>
 
                         <tr>
                             <td colspan="3"></td>
-             <!-- FINAL 1--><td style="background-color: white !important;"></td>
+             <!-- FINAL 1--><td style="background-color: #f1c40f !important;">Mayhem <? echo $derrota; ?> <? echo $derrota; ?></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 5-->            <td style="background-color: white !important;">A.Sobcsik</td>
+<!--JOGADOR 5-->            <td style="background-color: white !important;">A.Sobcsik <? echo $star2; ?> 53%</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -1619,13 +1619,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-          <!--OITAVAS 3-->  <td style="background-color: white !important;"></td>
+          <!--OITAVAS 3-->  <td style="background-color: white !important;">DUDUDU <? echo $star2; ?> 94%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 6-->            <td style="background-color: white !important;">DUDUDU</td>
+<!--JOGADOR 6-->            <td style="background-color: white !important;">DUDUDU <? echo $star2; ?> 72%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1635,13 +1635,13 @@ $divisoes = '<table>
                         <tr>
                             <td ></td>
                             <td></td>
-    <!--SEMIFINAL 2-->      <td style="background-color: white !important;"></td>
+    <!--SEMIFINAL 2-->      <td style="background-color: #f39c12 !important;">DUDUDU <? echo $derrota; ?> <? echo $vitoria; ?> <? echo $derrota; ?></td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-<!--JOGADOR 7-->            <td style="background-color: white !important;" > Sargento M</td>
+<!--JOGADOR 7-->            <td style="background-color: white !important;" > Sargento M <? echo $star2; ?> 80%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -1649,14 +1649,14 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-       <!--OITAVAS 4-->     <td style="background-color: white !important;"></td>
+       <!--OITAVAS 4-->     <td style="background-color: white !important;">Sargento M <? echo $star2; ?>79%</td>
                             <td></td>
                             <td></td>
                             
                         </tr>
 
                         <tr>
-<!--JOGADOR 8-->         <td style="background-color: white !important;">Tiaguera</td>
+<!--JOGADOR 8-->         <td style="background-color: white !important;">Tiaguera <? echo $star2; ?> 66%</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -1670,12 +1670,12 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-<!--OITAVAS 5-->            <td style="background-color: white !important;"></td>
+<!--OITAVAS 5-->            <td style="background-color: white !important;">Sr. Maldinii <? echo $star2; ?> 77%</td>
                             <td colspan="2"></td>
                         </tr>
 
                         <tr>
-  <!--JOGADOR 10-->         <td style="background-color: white !important;" >SPORTING1906</td>
+  <!--JOGADOR 10-->         <td style="background-color: white !important;" >SPORTING1906 <b>(WO)</b></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -1684,13 +1684,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td colspan="2"></td>
-      <!--SEMIFINAL 3-->    <td style="background-color: white !important;"></td>
+      <!--SEMIFINAL 3-->    <td style="background-color: white !important;">Sr. Maldinii <? echo $vitoria; ?> <? echo $derrota; ?> <? echo $vitoria; ?></td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-  <!--JOGADOR 11-->         <td style="background-color: white !important;">Krlos Clash</td>
+  <!--JOGADOR 11-->         <td style="background-color: white !important;">Krlos Clash <? echo $star1; ?> 44%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -1698,14 +1698,14 @@ $divisoes = '<table>
                         
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-         <!--OITAVAS 6-->   <td style="background-color: white !important;"></td>
+         <!--OITAVAS 6-->   <td style="background-color: white !important;">Dawson <? echo $star1; ?> 50%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                             
                         </tr>
 
                         <tr>
-<!--JOGADOR 12 -->         <td style="background-color: white !important;">Dawson</td>
+<!--JOGADOR 12 -->         <td style="background-color: white !important;">Dawson <? echo $star1; ?> 73%</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1714,10 +1714,10 @@ $divisoes = '<table>
                             <td></td>
                             <td></td>
                             <td></td>
-     <!--Final 2-->         <td style="background-color: white !important;"> </td>
+     <!--Final 2-->         <td style="background-color: #2ecc71  !important;"> Sr. Maldinii <? echo $vitoria; ?> <? echo $vitoria; ?> </td>
 
                         <tr>
-<!--JOGADOR 13-->           <td style="background-color: white !important;">Targaryen </td>
+<!--JOGADOR 13-->           <td style="background-color: white !important;">Targaryen <b>(WO)</b></td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -1726,7 +1726,7 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-        <!--OITAVAS 7-->    <td style="background-color: white !important;"></td>
+        <!--OITAVAS 7-->    <td style="background-color: white !important;">Caetano RCK <? echo $star3; ?> 100%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                         </tr>
@@ -1741,13 +1741,13 @@ $divisoes = '<table>
                         <tr>
                             <td></td>
                             <td></td>
-          <!--SEMIFINAL 4--><td style="background-color: white !important;"> </td>
+          <!--SEMIFINAL 4--><td style="background-color: #e67e22 !important;">Caetano RCK <? echo $derrota; ?> <? echo $vitoria; ?> <? echo $derrota; ?></td>
                             <td></td>
                         </tr>
 
 
                         <tr>
-<!--JOGADOR 15-->        <td style="background-color: white !important;">Danillo-SVS</td>
+<!--JOGADOR 15-->        <td style="background-color: white !important;">Danillo-SVS <? echo $star3; ?> 100%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td ></td>
                             <td></td>
@@ -1755,13 +1755,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-        <!--OITAVAS 8-->       <td style="background-color: white !important;"></td>
+        <!--OITAVAS 8-->       <td style="background-color: white !important;">Danillo-SVS <? echo $star2; ?> 82%</td>
                             <td></td>
                             <td></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 16-->           <td style="background-color: white !important;">LORD SOMBRIO</td> 
+<!--JOGADOR 16-->           <td style="background-color: white !important;">LORD SOMBRIO <? echo $star2; ?> 55%</td> 
                             <td style="background-color: white;"></td>
                             <td></td>
                             <td></td>
@@ -1776,7 +1776,7 @@ $divisoes = '<table>
 
 
   <!--Classificatória 8 ------------------------------------------------------------------------------->
-                <div id="class8" class="tab-pane fade">
+                <div id="class8" class="tab-pane fade in active">
                     <h4>Classificatória 08 - DATA: 12/09 às 21h BRT</h4>
                     <div class="row">
 						<? echo $divisoes;?>
@@ -1795,7 +1795,7 @@ $divisoes = '<table>
                         <tbody>
 
                         <tr>
- <!--JOGADOR 1-->           <td style="background-color: white !important;"> Chagas</td>
+ <!--JOGADOR 1-->           <td style="background-color: white !important;"> Chagas <? echo $star1; ?> 56%</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -1803,13 +1803,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-   <!--OITAVAS 1-->          <td style="background-color: white !important;"></td>
+   <!--OITAVAS 1-->          <td style="background-color: white !important;">Patolino <? echo $star3; ?> 100%</td>
                             <td></td>
                             <td></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 2-->            <td style="background-color: white !important;">Patolino</td>
+<!--JOGADOR 2-->            <td style="background-color: white !important;">Patolino <? echo $star2; ?> 74%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -1819,26 +1819,26 @@ $divisoes = '<table>
                         <tr>
                             <td></td>
                             <td></td>
-    <!--SEMIFINAL 1-->       <td style="background-color: white !important;"></td>
+    <!--SEMIFINAL 1-->       <td style="background-color: white !important;">Patolino <? echo $derrota; ?> <? echo $vitoria; ?> <? echo $vitoria; ?></td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-<!--JOGADOR 3-->            <td style="background-color: white !important;">悪夢 毛尺工ㄈ长ㄎのれ</td>
+<!--JOGADOR 3-->            <td style="background-color: white !important;">悪夢 毛尺工ㄈ长ㄎのれ <? echo $star2; ?> 85%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-       <!--OITAVAS 2-->     <td style="background-color: white !important;"></td>
+       <!--OITAVAS 2-->     <td style="background-color: white !important;">Mr. R <? echo $star1; ?>89%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                             
                         </tr>
                         <tr>
-<!--JOGADOR 4-->            <td style="background-color: white !important;">Mr. R</td>
+<!--JOGADOR 4-->            <td style="background-color: white !important;">Mr. R <? echo $star3; ?> 100%</td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1847,11 +1847,11 @@ $divisoes = '<table>
 
                         <tr>
                             <td colspan="3"></td>
-             <!-- FINAL 1--><td style="background-color: white !important;"></td>
+             <!-- FINAL 1--><td style="background-color: #f1c40f !important;">Patolino  <? echo $vitoria; ?> <? echo $derrota; ?></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 5-->            <td style="background-color: white !important;">Erty</td>
+<!--JOGADOR 5-->            <td style="background-color: white !important;">Erty </td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
@@ -1859,13 +1859,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-          <!--OITAVAS 3-->  <td style="background-color: white !important;"></td>
+          <!--OITAVAS 3-->  <td style="background-color: white !important;">Erty <? echo $star3; ?> 100% (2:59')</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 6-->            <td style="background-color: white !important;">Diego</td>
+<!--JOGADOR 6-->            <td style="background-color: white !important;">Diego <b>(W.O)</b></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1875,13 +1875,13 @@ $divisoes = '<table>
                         <tr>
                             <td ></td>
                             <td></td>
-    <!--SEMIFINAL 2-->      <td style="background-color: white !important;"></td>
+    <!--SEMIFINAL 2-->      <td style="background-color: #f39c12 !important;">celinho <? echo $vitoria; ?> <? echo $derrota; ?></td>
                             <td></td>
 
                         </tr>
 
                         <tr>
-<!--JOGADOR 7-->            <td style="background-color: white !important;" >kroz</td>
+<!--JOGADOR 7-->            <td style="background-color: white !important;" >kroz (W.O)</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -1889,7 +1889,7 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-       <!--OITAVAS 4-->     <td style="background-color: white !important;"></td>
+       <!--OITAVAS 4-->     <td style="background-color: white !important;">celinho <? echo $star3; ?> 100% (2:22')</td>
                             <td></td>
                             <td></td>
                             
@@ -1910,12 +1910,12 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-<!--OITAVAS 5-->            <td style="background-color: white !important;"></td>
+<!--OITAVAS 5-->            <td style="background-color: white !important;">FIRsT BO$$ <? echo $star1; ?> 76%</td>
                             <td colspan="2"></td>
                         </tr>
 
                         <tr>
-  <!--JOGADOR 10-->         <td style="background-color: white !important;" >YₒᵤOⁿˡʸLᵢᵥₑOⁿᶜᵉ</td>
+  <!--JOGADOR 10-->         <td style="background-color: white !important;" >YₒᵤOⁿˡʸLᵢᵥₑOⁿᶜᵉ <b>(W.O)</b></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td></td>
                             <td></td>
@@ -1924,7 +1924,7 @@ $divisoes = '<table>
 
                         <tr>
                             <td colspan="2"></td>
-      <!--SEMIFINAL 3-->    <td style="background-color: white !important;"></td>
+      <!--SEMIFINAL 3-->    <td style="background-color: white !important;">☣EduDebochado☣ <? echo $vitoria; ?> <? echo $vitoria; ?></td>
                             <td></td>
 
                         </tr>
@@ -1938,14 +1938,14 @@ $divisoes = '<table>
                         
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-         <!--OITAVAS 6-->   <td style="background-color: white !important;"></td>
+         <!--OITAVAS 6-->   <td style="background-color: white !important;">☣EduDebochado☣ <? echo $star2; ?> 97%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                             
                         </tr>
 
                         <tr>
-<!--JOGADOR 12 -->         <td style="background-color: white !important;">Joel</td>
+<!--JOGADOR 12 -->         <td style="background-color: white !important;">Joel <b>(W.O)</b></td>
                             <td></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1954,7 +1954,7 @@ $divisoes = '<table>
                             <td></td>
                             <td></td>
                             <td></td>
-     <!--Final 2-->         <td style="background-color: white !important;"> </td>
+     <!--Final 2-->         <td style="background-color: #2ecc71  !important;">☣EduDebochado☣  <? echo $derrota; ?> <? echo $vitoria; ?></td>
 
                         <tr>
 <!--JOGADOR 13-->           <td style="background-color: white !important;">Pedro Fhelipe</td>
@@ -1966,13 +1966,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"> </td>
-        <!--OITAVAS 7-->    <td style="background-color: white !important;"></td>
+        <!--OITAVAS 7-->    <td style="background-color: white !important;">Pedro Fhelipe <? echo $star2; ?>85%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
                         </tr>
 
                         <tr>
- <!--JOGADOR 14-->          <td style="background-color: white !important;">Morgan XII</td>
+ <!--JOGADOR 14-->          <td style="background-color: white !important;">Morgan XII <b>(W.O)</b></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none; border-top:none"></td>
                             <td></td>
@@ -1981,13 +1981,13 @@ $divisoes = '<table>
                         <tr>
                             <td></td>
                             <td></td>
-          <!--SEMIFINAL 4--><td style="background-color: white !important;"> </td>
+          <!--SEMIFINAL 4--><td style="background-color: #e67e22 !important;"> Pedro Fhelipe <? echo $derrota; ?> <? echo $derrota; ?></td>
                             <td></td>
                         </tr>
 
 
                         <tr>
-<!--JOGADOR 15-->        <td style="background-color: white !important;">TEC Taylor leal.(Ptzeiro)</td>
+<!--JOGADOR 15-->        <td style="background-color: white !important;">TEC Taylor leal <? echo $star2; ?>58%</td>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
                             <td ></td>
                             <td></td>
@@ -1995,13 +1995,13 @@ $divisoes = '<table>
 
                         <tr>
                             <td style="border: 1px solid black;border-bottom:none;border-left:none;"></td>
-        <!--OITAVAS 8-->       <td style="background-color: white !important;"></td>
+        <!--OITAVAS 8-->       <td style="background-color: white !important;">TEC Taylor leal. <? echo $star2; ?> 58%</td>
                             <td></td>
                             <td></td>
                         </tr>
 
                         <tr>
-<!--JOGADOR 16-->           <td style="background-color: white !important;">BriFixGamer89</td> 
+<!--JOGADOR 16-->           <td style="background-color: white !important;">BriFixGamer89 <b>(W.O)</b></td> 
                             <td style="background-color: white;"></td>
                             <td></td>
                             <td></td>
