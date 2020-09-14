@@ -2135,29 +2135,31 @@ $divisoes = '<table>
                     </table>
                 </div>
             </div>
+            
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <h6>Primeira rodada</h6>
                         
-<div class="main-lates-matches">
-<!-- <i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i> -->
-    <a href="#" class="item">
-        <span class="teams-wrap">
-             <span class="team">
-                    <span>CTB MELCHORL93</span>
-                </span>
-                <span class="score">
-                    <!-- <span>50% : 50%</span> -->
+                        <div class="main-lates-matches">
+                        <!-- <i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i> -->
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>CTB MELCHORL93</span>
+                                        </span>
+                                        <span class="score">
+                                            <!-- <span>50% : 50%</span> -->
 
-                </span>
-                <span class="team1">
-                    <span>PEDRO FHELIPE</span>
-                </span>
-        </span>
-        <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
-    </a>
-    
-</div>
+                                        </span>
+                                        <span class="team1">
+                                            <span>PEDRO FHELIPE</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                            
+                        </div>
                 </div>
+
             </div>
     </section>
 
