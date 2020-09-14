@@ -2021,6 +2021,158 @@ $divisoes = '<table>
 </section>
 
 
+<!--Fase de Grupos-->
+
+   <!--STANDING CUP BEGIN-->
+   <section class="standing-cup">
+    <div class="container">
+    <h2>Fase de grupos</h2>
+
+        <div class="row">
+
+
+        <ul class="nav tab-filters">
+
+            <li class=" in active"><a data-toggle="tab" href="#3divisao">3ª Divisão - Grupo A</a></li>
+            <!-- <li class=""><a data-toggle="tab" href="#class2">Classificatória 02</a></li>
+            <li class=""><a data-toggle="tab" href="#class3">Classificatória 03</a></li>
+            <li class=""><a data-toggle="tab" href="#class4">Classificatória 04</a></li>
+            <li class=""><a data-toggle="tab" href="#class5">Classificatória 05</a></li> -->
+
+        </ul>
+
+
+        <style>
+       
+       /**/
+        </style>
+
+        <div class="tab-content">
+
+            <!--3 Divisão Grupo A1 --------------->
+                <div id="3divisao" class="tab-pane fade in active">
+                     <!--MAIN MACTH SHEDULE BEGIN-->
+
+    <section class="main-match-shedule">
+            <div class="row">
+            <div class="col-md-6">
+                <h6>Ranking</h6>
+                <div class="club-standings overflow-scroll">
+                    <table class="table-standings">
+                        <tr>
+                            <th>Jogador</th>
+                            <th>Vitória</th>
+                            <th>Estrela</th>
+                            <th>Porcentagem</th>
+                        </tr>
+
+                        <!-- 1º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>1</b> <span class="team"></span> <span>BLANC-TUGA</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                        </tr>
+
+                        <!-- 2º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>2</b> <span class="team"></span> <span>BRUNOSLB190</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                        </tr>
+
+                        
+                        <!-- 3º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>3</b> <span class="team"></span> <span>CAETANO RCK</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                        </tr>
+
+                        <!-- 4º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>4</b> <span class="team"></span> <span>CTB MELCHORL93</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                        </tr>
+
+                    <!-- 5º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>5</b> <span class="team"></span> <span>🔶️IE-LEONARDO🔶️</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                    </tr>
+
+                    <!-- 6º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>6</b> <span class="team"></span> <span>DANILO</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                    </tr>
+
+                    <!-- 7º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>7</b> <span class="team"></span> <span>PEDRO FHELIPE</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                    </tr>
+
+                    <!-- 8º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>8</b> <span class="team"></span> <span>SILVIO</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                    </tr>
+
+
+                    </table>
+                </div>
+            </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Primeira rodada</h6>
+                        
+<div class="main-lates-matches">
+<!-- <i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i> -->
+    <a href="#" class="item">
+        <span class="teams-wrap">
+             <span class="team">
+                    <span>CTB MELCHORL93</span>
+                </span>
+                <span class="score">
+                    <!-- <span>50% : 50%</span> -->
+
+                </span>
+                <span class="team1">
+                    <span>PEDRO FHELIPE</span>
+                </span>
+        </span>
+        <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+    </a>
+    
+</div>
+                </div>
+            </div>
+    </section>
+
+                </div>
+            </div>
+ <!--Classificatória 1 --------------->
+
+
+
+         </div>
+        </div>
+
+    </div>
+</section>
+
 
 
 
