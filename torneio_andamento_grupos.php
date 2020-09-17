@@ -530,13 +530,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>SILBRUNOSLB190VIO &emsp;<i class="fa fa-star star1"></i></span>
+                                            <span>BRUNOSLB190 &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>72% : 83%</span>
+                                             <span>73% : 68%</span>
                                         </span>
                                         <span class="team1">
-                                            <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;BLANC-TUGA</span>
+                                            <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;🔶️IE-LEONARDO🔶️</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -548,13 +548,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>DANILO &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
+                                        <span>SILVIO &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>84% : 56%</span>
+                                            <span>74% : 43%</span>
                                     </span>
                                     <span class="team1">
-                                        <span><i class="fa fa-star star1"></i>&emsp;🔶️IE-LEONARDO🔶️</span>
+                                        <span><i class="fa fa-star star1"></i>&emsp;PEDRO FHELIPE</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -567,13 +567,91 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>CAETANO RCK &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
+                                        <span>DANILO &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>95% : 76%</span>
+                                            <span>90% : 77%</span>
                                     </span>
                                     <span class="team1">
-                                        <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;PEDRO FHELIPE </span>
+                                        <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;CAETANO RCK</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Sétima rodada</h6>
+                    
+                    <!--Partida -->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>CTB MELCHORL93 &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>94% : 62%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i> &emsp;🔶️IE-LEONARDO🔶️</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>BLANC-TUGA &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>100% : 58%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;PEDRO FHELIPE</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>BRUNOSLB190 &emsp;<i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>79% : 70%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;CAETANO RCK</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>SILVIO &emsp;<i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>55% : 72%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i> <i class="fa fa-star star1"></i>&emsp;DANILO</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
