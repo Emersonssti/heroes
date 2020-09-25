@@ -10,7 +10,8 @@
 
             <li class=""><a data-toggle="tab" href="#3divisao">3ª Divisão - Grupo A</a></li>
             <li class=""><a data-toggle="tab" href="#3divisaob">3ª Divisão - Grupo B</a></li>
-            <li class="in active"><a data-toggle="tab" href="#class3">2ª Divisão - Grupo A</a></li>
+            <li class=""><a data-toggle="tab" href="#2divisaoa">2ª Divisão - Grupo A</a></li>
+            <li class="in active"><a data-toggle="tab" href="#2divisaob">2ª Divisão - Grupo B</a></li>
             <!--<li class=""><a data-toggle="tab" href="#class4">Classificatória 04</a></li>
             <li class=""><a data-toggle="tab" href="#class5">Classificatória 05</a></li> -->
 
@@ -1306,8 +1307,8 @@
 
                 </div>
 
-                <!--2 Divisão Grupo A --------------->
-<div id="2divisaoa" class="tab-pane fade in active">
+ <!--2 Divisão Grupo A --------------->
+<div id="2divisaoa" class="tab-pane fade">
             <table>
                     <tr>
                     <th colspan="2" width="20%" style=" background-color:#44bd32; color:white">Classificado para a fase playoff</th>
@@ -1328,64 +1329,64 @@
 
                         <!-- 1º Lugar-->
                         <tr class="teste">
-                    <!-- Nick Vila --><td><b>1</b> <span class="team"></span> <span>HEIMDALL SAMA</span></td>
-                    <!-- Vitorias --> <td>-</td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Nick Vila --><td style="background-color: #44bd32 !important;"><b>1</b> <span class="team"></span> <span>JACO MITO</span></td>
+                    <!-- Vitorias --> <td style="background-color: #44bd32 !important;">5</td>
+                    <!-- Estrelas --> <td style="background-color: #44bd32 !important;">14</td>
+                    <!-- Porcentagem--><td style="background-color: #44bd32 !important;">88,33%</td>
                         </tr>
 
                         <!-- 2º Lugar-->
                         <tr>
-                    <!-- Nick Vila --><td><b>2</b> <span class="team"></span> <span>@DALEPRANI</span></td>
-                    <!-- Vitorias --> <td>-</td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Nick Vila --><td><b>2</b> <span class="team"></span> <span>PATOLINO</span></td>
+                    <!-- Vitorias --> <td>4</td>
+                    <!-- Estrelas --> <td>13</td>
+                    <!-- Porcentagem--><td>88,33%</td>
                         </tr>
 
                         
                         <!-- 3º Lugar-->
                         <tr>
-                    <!-- Nick Vila --><td><b>3</b> <span class="team"></span> <span>JACO MITO</span></td>
-                    <!-- Vitorias --> <td>-</td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Nick Vila --><td><b>3</b> <span class="team"></span> <span>DANILO</span></td>
+                    <!-- Vitorias --> <td>13</td>
+                    <!-- Estrelas --> <td>15</td>
+                    <!-- Porcentagem--><td>92,67%</td>
                         </tr>
 
                         <!-- 4º Lugar-->
                         <tr>
-                    <!-- Nick Vila --><td><b>4</b> <span class="team"></span> <span>STRONG_GAB</span></td>
-                    <!-- Vitorias --> <td>-</td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Nick Vila --><td><b>4</b> <span class="team"></span> <span>HEIMDALL SAMA</span></td>
+                    <!-- Vitorias --> <td>3</td>
+                    <!-- Estrelas --> <td>14</td>
+                    <!-- Porcentagem--><td>93,33</td>
                         </tr>
 
                     <!-- 5º Lugar-->
                     <tr>
                     <!-- Nick Vila --><td><b>5</b> <span class="team"></span> <span>RAFAEL</span></td>
-                    <!-- Vitorias --> <td>- </td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Vitorias --> <td>3</td>
+                    <!-- Estrelas --> <td>13</td>
+                    <!-- Porcentagem--><td>80%</td>
                     </tr>
 
                     <!-- 6º Lugar-->
                     <tr>
                     <!-- Nick Vila --><td><b>6</b> <span class="team"></span> <span>MAYHEM</span></td>
-                    <!-- Vitorias --> <td>-</td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Vitorias --> <td>2</td>
+                    <!-- Estrelas --> <td>13</td>
+                    <!-- Porcentagem--><td>78,33%</td>
                     </tr>
 
                     <!-- 7º Lugar-->
                     <tr>
-                    <!-- Nick Vila --><td><b>7</b> <span class="team"></span> <span>PATOLINO</span></td>
-                    <!-- Vitorias --> <td>-</td>
-                    <!-- Estrelas --> <td>-</td>
-                    <!-- Porcentagem--><td>-</td>
+                    <!-- Nick Vila --><td><b>7</b> <span class="team"></span> <span> @DALEPRANI</span></td>
+                    <!-- Vitorias --> <td>1</td>
+                    <!-- Estrelas --> <td>9</td>
+                    <!-- Porcentagem--><td>65%</td>
                     </tr>
 
                     <!-- 8º Lugar-->
                     <tr>
-                    <!-- Nick Vila --><td><b>8</b> <span class="team"></span> <span>DANILO</span></td>
+                    <!-- Nick Vila --><td><b>8</b> <span class="team"></span> <span>STRONG_GAB</span></td>
                     <!-- Vitorias --> <td>-</td>
                     <!-- Estrelas --> <td>-</td>
                     <!-- Porcentagem--><td>-</td>
@@ -1404,13 +1405,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>HEIMDALL SAMA &emsp;</span>
+                                            <span>HEIMDALL SAMA &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                        <span>- : -</span>
+                                        <span>95% : 100%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;DANILO </span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DANILO </span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1422,13 +1423,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>@DALEPRANI&emsp;</span>
+                                            <span>@DALEPRANI&emsp;<i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>61% : 80%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;PATOLINO</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;PATOLINO</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1440,13 +1441,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>JACO MITO&emsp;</span>
+                                            <span>JACO MITO&emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                                <span>- : -</span>
+                                                <span>77% : 82%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;MAYHEM</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;MAYHEM</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1482,13 +1483,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>DANILO &emsp;</span>
+                                            <span>DANILO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>83% : 100%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;MAYHEM </span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;MAYHEM </span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1500,13 +1501,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>@DALEPRANI &emsp;</span>
+                                            <span>@DALEPRANI &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>75% : 85%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;RAFAEL</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;RAFAEL</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1518,13 +1519,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>HEIMDALL SAMA &emsp;</span>
+                                        <span>HEIMDALL SAMA &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>100% : 99%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;PATOLINO</span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;PATOLINO</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1560,13 +1561,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>PATOLINO &emsp;</span>
+                                            <span>PATOLINO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>82% : 68%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;RAFAEL</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;RAFAEL</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1596,13 +1597,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>HEIMDALL SAMA &emsp;</span>
+                                        <span>HEIMDALL SAMA &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>99% : 95%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;MAYHEM</span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;MAYHEM</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1615,13 +1616,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>@DALEPRANI &emsp;</span>
+                                        <span>@DALEPRANI &emsp;<i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>50% : 81%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;JACO MITO</span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;JACO MITO</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1638,13 +1639,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>PATOLINO &emsp;</span>
+                                            <span>PATOLINO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>93% : 100%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;JACO MITO</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;JACO MITO</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1656,13 +1657,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>HEIMDALL SAMA &emsp;</span>
+                                            <span>HEIMDALL SAMA &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>80% : 94%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;RAFAEL</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;RAFAEL</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1693,13 +1694,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>DANILO &emsp;</span>
+                                        <span>DANILO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>100% : 62%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;@DALEPRANI</span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;@DALEPRANI</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1734,13 +1735,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>RAFAEL &emsp;</span>
+                                            <span>RAFAEL &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>77% : 84%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;JACO MITO</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;JACO MITO</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1752,13 +1753,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>MAYHEM &emsp; </span>
+                                        <span>MAYHEM &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i> </span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>62% : 67%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;@DALEPRANI</span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;@DALEPRANI</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1771,13 +1772,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>PATOLINO &emsp;</span>
+                                        <span>PATOLINO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>79% : 74%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;DANILO </span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DANILO </span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1794,13 +1795,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>MAYHEM &emsp;</span>
+                                            <span>MAYHEM &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>62% : 100%</span>
                                         </span>
                                         <span class="team1">
-                                            <span> &emsp;PATOLINO</span>
+                                            <span> <i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;PATOLINO</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1812,13 +1813,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>RAFAEL &emsp; </span>
+                                            <span>RAFAEL &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i> </span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>83% : 100%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp;DANILO</span>
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DANILO</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1849,13 +1850,13 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>HEIMDALL SAMA &emsp;</span>
+                                        <span>HEIMDALL SAMA &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                     </span>
                                     <span class="score">
-                                            <span>- : -</span>
+                                            <span>86% : 88%</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;JACO MITO</span>
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;JACO MITO</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1872,13 +1873,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>JACO MITO &emsp;</span>
+                                            <span>JACO MITO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>100% : 99%</span>
                                         </span>
                                         <span class="team1">
-                                            <span> &emsp;DANILO</span>
+                                            <span> <i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DANILO</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1890,13 +1891,13 @@
                             <a href="#" class="item">
                                 <span class="teams-wrap">
                                     <span class="team">
-                                            <span>HEIMDALL SAMA &emsp;</span>
+                                            <span>HEIMDALL SAMA &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
                                         </span>
                                         <span class="score">
-                                             <span>- : -</span>
+                                             <span>100% : 75%</span>
                                         </span>
                                         <span class="team1">
-                                            <span>&emsp; @DALEPRANI</span>
+                                            <span><i class="fa fa-star star1"></i>&emsp; @DALEPRANI</span>
                                         </span>
                                 </span>
                                 <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
@@ -1927,13 +1928,815 @@
                         <a href="#" class="item">
                             <span class="teams-wrap">
                                 <span class="team">
-                                        <span>RAFAEL &emsp;</span>
+                                        <span>RAFAEL &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>73% : 69%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;MAYHEM</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+                </div>
+
+<!--2 Divisão Grupo B --------------->
+<div id="2divisaob" class="tab-pane fade in active">
+    <table>
+            <tr>
+            <th colspan="2" width="20%" style=" background-color:#44bd32; color:white">Classificado para a fase playoff</th>
+            </tr>
+        </table>
+    <section class="main-match-shedule">
+            <div class="row">
+            <div class="col-md-6">
+                <h6>Ranking</h6>
+                <div class="club-standings overflow-scroll">
+                    <table class="table-standings">
+                        <tr>
+                            <th>Jogador</th>
+                            <th>Vitória</th>
+                            <th>Estrela</th>
+                            <th>Porcentagem</th>
+                        </tr>
+
+                    <!-- 1º Lugar-->
+                        <tr class="teste">
+                    <!-- Nick Vila --><td style="background-color: #44bd32 !important;"><b>1</b> <span class="team"></span> <span>RIVERA.CR☆☆☆</span></td>
+                    <!-- Vitorias --> <td style="background-color: #44bd32 !important;">2</td>
+                    <!-- Estrelas --> <td style="background-color: #44bd32 !important;">5</td>
+                    <!-- Porcentagem--><td style="background-color: #44bd32 !important;">28,43%</td>
+                        </tr>
+
+                        <!-- 2º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>2</b> <span class="team"></span> <span>CELINHO</span></td>
+                    <!-- Vitorias --> <td>2</td>
+                    <!-- Estrelas --> <td>4</td>
+                    <!-- Porcentagem--><td>26,57%</td>
+                        </tr>
+
+                        
+                        <!-- 3º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>3</b> <span class="team"></span> <span>YONDAIME</span></td>
+                    <!-- Vitorias --> <td>1</td>
+                    <!-- Estrelas --> <td>5</td>
+                    <!-- Porcentagem--><td>30,57%</td>
+                        </tr>
+
+                        <!-- 4º Lugar-->
+                        <tr>
+                    <!-- Nick Vila --><td><b>4</b> <span class="team"></span> <span>KAKASHI HATAKI</span></td>
+                    <!-- Vitorias --> <td>1</td>
+                    <!-- Estrelas --> <td>5</td>
+                    <!-- Porcentagem--><td>24,86%</td>
+                        </tr>
+
+                    <!-- 5º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>5</b> <span class="team"></span> <span>TOBIRAMA-CLUB</span></td>
+                    <!-- Vitorias --> <td>1</td>
+                    <!-- Estrelas --> <td>2</td>
+                    <!-- Porcentagem--><td>14%</td>
+                    </tr>
+
+                    <!-- 6º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>6</b> <span class="team"></span> <span>WILMER</span></td>
+                    <!-- Vitorias --> <td>0</td>
+                    <!-- Estrelas --> <td>4</td>
+                    <!-- Porcentagem--><td>23,29%</td>
+                    </tr>
+
+                    <!-- 7º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>7</b> <span class="team"></span> <span>DUDUDU</span></td>
+                    <!-- Vitorias --> <td>0</td>
+                    <!-- Estrelas --> <td>3</td>
+                    <!-- Porcentagem--><td>19,57%</td>
+                    </tr>
+
+                    <!-- 8º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>8</b> <span class="team"></span> <span>CELINHO</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                    </tr>
+
+                    <!-- 9º Lugar-->
+                    <tr>
+                    <!-- Nick Vila --><td><b>9</b> <span class="team"></span> <span>YONDAIME</span></td>
+                    <!-- Vitorias --> <td>-</td>
+                    <!-- Estrelas --> <td>-</td>
+                    <!-- Porcentagem--><td>-</td>
+                    </tr>
+
+                    </table>
+                </div>
+            </div>
+            
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Primeira rodada</h6>
+                    
+                    <!--Partida -->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>TOBIRAMA-CLUB &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                        <span>98% : 47%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span>&emsp;YONDAIME </span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>WILMER&emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>74% : 94%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;CELINHO</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>RIVERA.CR☆☆☆&emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                                <span>99% :66%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i>&emsp;DUDUDU</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>RONNY TAVARES&emsp;</span>
                                     </span>
                                     <span class="score">
                                             <span>- : -</span>
                                     </span>
                                     <span class="team1">
-                                        <span>&emsp;MAYHEM</span>
+                                        <span>&emsp;KÖVEIRO</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Segunda rodada</h6>
+                    
+                    <!--Partida -->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>100% : 67%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;YONDAIME </span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>TOBIRAMA-CLUB &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>100% : 55%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DUDUDU</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>WILMER &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>100% : 55%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;KÖVEIRO</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>RIVERA.CR☆☆☆ &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;RONNY TAVARES </span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Terceira rodada</h6>
+                    
+                    <!--Partida -->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>74% : 92%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;CELINHO</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>YONDAIME &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>100% : 71%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DUDUDU</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>TOBIRAMA-CLUB &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;RONNY TAVARES</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                     </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>WILMER &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>89% : 100%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;RIVERA.CR☆☆☆</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Quarta rodada</h6>
+                    
+                    <!--Partida 1-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>100% : 72%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;DUDUDU</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>CELINHO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>91% : 66%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;KÖVEIRO</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>YONDAIME &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;RONNY TAVARES</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>TOBIRAMA-CLUB &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>93% : 100%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;WILMER</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Quinta rodada</h6>
+                    
+                    <!--Partida -->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                        </span>
+                                        <span class="score">
+                                             <span>69% : 85%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;KÖVEIRO</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>DUDUDU &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span>&emsp;RONNY TAVARES</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>CELINHO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i> </span>
+                                    </span>
+                                    <span class="score">
+                                            <span>100% : 83%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;RIVERA.CR☆☆☆</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>YONDAIME &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>100% : 83%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;WILMER </span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Sexta rodada</h6>
+                    
+                    <!--Partida -->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span> &emsp;RONNY TAVARES</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KÖVEIRO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i> </span>
+                                        </span>
+                                        <span class="score">
+                                             <span>76% : 98%</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;RIVERA.CR☆☆☆</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>DUDUDU &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>81% : 69%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;WILMER</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>CELINHO &emsp;<i class="fa fa-star star1"></i><i class="fa fa-star star1"></i></span>
+                                    </span>
+                                    <span class="score">
+                                            <span>80% : 72%</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span><i class="fa fa-star star1"></i><i class="fa fa-star star1"></i>&emsp;TOBIRAMA-CLUB</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Sétima rodada</h6>
+                    
+                    <!--Partida 1-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span> &emsp;RIVERA.CR☆☆☆</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>RONNY TAVARES &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span>&emsp; WILMER</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>KÖVEIRO &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;TOBIRAMA-CLUB</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>CELINHO &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;YONDAIME</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Oitava rodada</h6>
+                    
+                    <!--Partida 1-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span> &emsp;WILMER</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>RIVERA.CR☆☆☆ &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span>&emsp; TOBIRAMA-CLUB</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>KÖVEIRO &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;YONDAIME</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>DUDUDU &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;CELINHO</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h6>Nona rodada</h6>
+                    
+                    <!--Partida 1-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>KAKASHI HATAKI &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span> &emsp;TOBIRAMA-CLUB</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                        <!--Partida 2-->
+                        <div class="main-lates-matches">
+                            <a href="#" class="item">
+                                <span class="teams-wrap">
+                                    <span class="team">
+                                            <span>RIVERA.CR☆☆☆ &emsp;</span>
+                                        </span>
+                                        <span class="score">
+                                             <span>- : -</span>
+                                        </span>
+                                        <span class="team1">
+                                            <span>&emsp; YONDAIME</span>
+                                        </span>
+                                </span>
+                                <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                            </a>
+                        </div>
+
+                      <!--Partida 3-->
+                      <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>RONNY TAVARES &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;CELINHO</span>
+                                    </span>
+                            </span>
+                            <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
+                        </a>
+                    </div>
+
+                    
+                    <!--Partida 4-->
+                    <div class="main-lates-matches">
+                        <a href="#" class="item">
+                            <span class="teams-wrap">
+                                <span class="team">
+                                        <span>KÖVEIRO &emsp;</span>
+                                    </span>
+                                    <span class="score">
+                                            <span>- : -</span>
+                                    </span>
+                                    <span class="team1">
+                                        <span>&emsp;DUDUDU</span>
                                     </span>
                             </span>
                             <!-- <span class="game-result">(2:45' - 3:00') Tempo</span> -->
