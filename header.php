@@ -10,24 +10,23 @@
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Heroes Tournaments</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
     <link rel="icon" href="images/logo.png" type="image/x-icon">
     <link href="css/library/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="dev-assets/preloader-default.css" rel="stylesheet" type="text/css" />
     <link href="dev-assets/demo-switcher.css" rel="stylesheet" type="text/css" />
-    
+
 </head>
 
 <body>
 
 	<div class="preloader-wrapper" id="preloader">
-    <div class="motion-line dark-big"></div>
-    <div class="motion-line yellow-big"></div>
-    <div class="motion-line dark-small"></div>
-    <div class="motion-line yellow-normal"></div>
-    <div class="motion-line yellow-small1"></div>
-    <div class="motion-line yellow-small2"></div>
-</div>
+        <div class="motion-line dark-big"></div>
+        <div class="motion-line yellow-big"></div>
+        <div class="motion-line dark-small"></div>
+        <div class="motion-line yellow-normal"></div>
+        <div class="motion-line yellow-small1"></div>
+        <div class="motion-line yellow-small2"></div>
+    </div>
 
     
 
@@ -56,7 +55,7 @@
                             <li><a id="encerrado" href="#"><span>Encerrado</span></a></li>
                         </ul>
                     </li>
-                    <li><a id="assista" href="#"><span>Assista</span></a></li>
+                    <li><a href="assista.php"><span>Assista</span></a></li>
                     <li><a id="comunidade" href="#"><span>Comunidade</span></a></li>
               
                 </ul>

@@ -113,6 +113,8 @@
                     </ul>
                   </li>
                   <li class="dropdown"><a class="nav-link menu-title link-nav" href="noticias_list.php" target="_blank"><i data-feather="volume"></i><span>Notícias</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="assista_list.php" target="_blank"><i data-feather="volume"></i><span>Assista</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="comunidade_list.php" target="_blank"><i data-feather="volume"></i><span>Comunidade</span></a></li>
                   </li>
 
                   <!-- <li class="dropdown"><a class="nav-link menu-title" href="#"><i data-feather="maximize"></i><span>Torneio</span></a>

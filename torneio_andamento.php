@@ -38,21 +38,21 @@ $divisoes = '<table>
     <!--STANDING CUP BEGIN-->
     <section class="standing-cup">
     <div class="container">
-    <h2>Classificatórias</h2>
+    <h2>Qualificatórias</h2>
 
         <div class="row">
 
 
         <ul class="nav tab-filters">
 
-            <li class=""><a data-toggle="tab" href="#class1">Classificatória 01</a></li>
-            <li class=""><a data-toggle="tab" href="#class2">Classificatória 02</a></li>
-            <li class=""><a data-toggle="tab" href="#class3">Classificatória 03</a></li>
-            <li class=""><a data-toggle="tab" href="#class4">Classificatória 04</a></li>
-            <li class=""><a data-toggle="tab" href="#class5">Classificatória 05</a></li>
-            <li class=""><a data-toggle="tab" href="#class6">Classificatória 06</a></li>
-            <li class=""><a data-toggle="tab" href="#class7">Classificatória 07</a></li>
-            <li class=""><a data-toggle="tab" href="#class8">Classificatória 08</a></li>
+            <li class=""><a data-toggle="tab" href="#class1">Qualificatória 01</a></li>
+            <li class=""><a data-toggle="tab" href="#class2">Qualificatória 02</a></li>
+            <li class=""><a data-toggle="tab" href="#class3">Qualificatória 03</a></li>
+            <li class=""><a data-toggle="tab" href="#class4">Qualificatória 04</a></li>
+            <li class=""><a data-toggle="tab" href="#class5">Qualificatória 05</a></li>
+            <li class=""><a data-toggle="tab" href="#class6">Qualificatória 06</a></li>
+            <li class=""><a data-toggle="tab" href="#class7">Qualificatória 07</a></li>
+            <li class=""><a data-toggle="tab" href="#class8">Qualificatória 08</a></li>
 
         </ul>
 

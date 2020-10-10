@@ -1,9 +1,20 @@
-
-    <!--FOOTER BEGIN-->
-    <footer class="footer">
-
-</footer>
-<!--FOOTER END-->
+<!--ESPORT TEAM LANDING FOOTER LINKS BEGIN-->
+<div class="esport-team-landing-footer-links">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li class="facebook">
+                        <a href="#">
+                            <span></span>
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

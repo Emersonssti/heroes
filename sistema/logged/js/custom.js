@@ -150,4 +150,55 @@ $("#gravar_classificatoria").click(function(){
         }
     });
 }
+
+
+///////////////// Grava Assista
+$("#gravar_assista").click(function(){
+    var ID_ASSISTA = $('#id_assista').val();
+
+    var TITULO = $('#titulo').val();
+    var CANAL = $('#canal').val();
+    var URL = $('#url_video').val();
+   
+    $.ajax({ url:'assista_grava.php?titulo=' + TITULO + '&canal=' + CANAL+ '&url=' + URL + '&id_assista=' + ID_ASSISTA, cache: false }).done(function (txtstatus) {
+ 
+       if(txtstatus == 0){
+        swal("Não foi possível salvar os dados, contate o suporte", '', 'error');
+
+       }else if( txtstatus == 1){
+
+        swal("Registro criado com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/assista_list.php");
+        },delay);
+
+       }else if( txtstatus == 2){
+        swal("Registro Alterado com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/assista_list.php");
+        },delay);
+       }
+       
+   
+    })
+ });  
+
+  //Excluir Assista
+  function Excluir_Assista(id) {
+    var ID_ASSISTA = id;
+
+    $.ajax({ url: 'assista_excluir.php?id_assista=' + ID_ASSISTA, cache: false }).done(function (txtinativa) {
+
+
+        if (txtinativa == 1) {
+
+            swal("Erro ao deletar o registro, por favor, contate o Suporte!", '', 'error');
+
+        } else {
+            $("#tr_assista_" + ID_ASSISTA).fadeOut();
+        }
+    });
+}
      

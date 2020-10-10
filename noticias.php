@@ -46,7 +46,7 @@
             <a href="<? echo $result_noticia[3];?>"><img src="<? echo $result_noticia[0];?>" alt="post image"></a>
         </div>
         <div class="info">
-            <a href="<? echo $result_noticia[3];?>" class="name"><? echo $result_noticia[1]; ?></a>	
+            <a href="<? echo $result_noticia[3];?>" class="name"><? echo utf8_encode($result_noticia[1]); ?></a>	
             <div class="wrap">
                 <a href="<? echo $result_noticia[3];?>"><? echo $data?></a> by <a href="<? echo $result_noticia[3];?>"><? echo $result_noticia[4];?></a>
             </div>
