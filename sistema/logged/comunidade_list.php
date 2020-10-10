@@ -6,10 +6,10 @@
             <div class="page-header">
               <div class="row">
                 <div class="col-lg-9">
-                  <h3>Vídeos</h3>
+                  <h3>Comunidade</h3>
                 </div>
                 <div class="col-lg-3" >
-                    <div class="bg-transparent" style="float:right;"><a class="btn btn-success btn-lg" href="assista_forms.php"><span class="fa fa-plus"></span>Notícia</a></div>
+                    <div class="bg-transparent" style="float:right;"><a class="btn btn-success btn-lg" href="comunidade_forms.php"><span class="fa fa-plus"></span> Post</a></div>
                 </div>
               </div>
             </div>
@@ -28,32 +28,42 @@
                       <table class="stripe" id="example-style-8">
                         <thead>
                           <tr>
-                            <th width="40%">Título</th>
-                            <th width="25%">CANAL</th>
-                            <th width="25%">Ação</th>
+                            <th>ID POSTAGEM</th>
+                            <th>TÍTULO</th>
+                            <th>USUÁRIO</th>
+                            <th>DATA</th>
+                            <th>AÇÃO</th>
                           </tr>
                         </thead>
                         <tbody>
 
                        <? $sql_assista = "SELECT
-                        assista.ID_ASSISTA,
-                        assista.TITULO,
-                        assista.CANAL
-                        FROM assista";
+                        comunidade.ID_POST,
+                        comunidade.TITULO,
+                        comunidade.USER,
+                        DATE_FORMAT(comunidade.DATA, '%d/%m/%Y')
+                        FROM comunidade";
                         foreach ($db_heroes->query($sql_assista) as $result_assista){ 
+
+                          $sql_user= $db_confi->prepare("SELECT NOME FROM usuario WHERE ID_USUARIO = '".$result_assista[2]."' ");
+                          $sql_user->execute();
+                          $row_user = $sql_user->fetch(PDO::FETCH_NUM);
                           ?>
                           
-                          <tr id="tr_assista_<? echo $result_assista[0]; ?>">
-                            <td><? echo utf8_encode($result_assista[1]);?></td>
-                            <td><? echo utf8_encode($result_assista[2]);?></td>
+                          
+                          <tr id="tr_comunidade_<? echo $result_assista[0]; ?>">
+                            <td><? echo $result_assista[0];?></td>
+                            <td><? echo $result_assista[1];?></td>
+                            <td><? echo $row_user[0];?></td>
+                            <td><? echo $result_assista[3];?></td>
                             <td>
                               <!--EDITAR-->
-                              <button type="button" title="Editar" class="btn btn-sm btn-icon" onclick="location.href='assista_forms.php?id_assista=<? echo $result_assista[0]; ?>';" >
+                              <button type="button" title="Editar" class="btn btn-sm btn-icon" onclick="location.href='comunidade_forms.php?id_comunidade=<? echo $result_assista[0]; ?>';" >
                                 <span><i class="fa fa-pencil fa-2x" style="color:#7366ff"  aria-hidden="true"></i></span>
                               </button>
 
                               <!--EXCLUIR-->
-                              <button type="button" title="Excluir" class="btn btn-sm btn-icon" id="btexclui_assista<? echo $result_assista[0]; ?>" onclick="Excluir_Assista('<? echo $result_assista[0]; ?>');" >
+                              <button type="button" title="Excluir" class="btn btn-sm btn-icon" id="btexclui_comunidade<? echo $result_assista[0]; ?>" onclick="Excluir_Comunidade('<? echo $result_assista[0]; ?>');" >
                                 <span><i class="fa fa-trash fa-2x" style="color:#7366ff"  aria-hidden="true"></i></span>
                               </button>
 

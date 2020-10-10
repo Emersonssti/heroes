@@ -201,4 +201,51 @@ $("#gravar_assista").click(function(){
         }
     });
 }
-     
+
+
+///////////////// Grava Comunidade
+$("#gravar_comunidade").click(function(){
+    var ID_COMUNIDADE = $('#id_comunidade').val();
+    var TITULO = $('#titulo').val();
+    var TEXTO = $('#texto').val();
+    var URL = $('#url_foto').val();
+   
+    $.ajax({ url:'comunidade_grava.php?titulo=' + TITULO + '&texto=' + TEXTO+ '&url=' + URL + '&id_comunidade=' + ID_COMUNIDADE, cache: false }).done(function (txtstatus) {
+       if(txtstatus == 0){
+        swal("Não foi possível salvar os dados, contate o suporte", '', 'error');
+
+       }else if( txtstatus == 1){
+
+        swal("Registro criado com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/comunidade_list.php");
+        },delay);
+
+       }else if( txtstatus == 2){
+        swal("Registro alterado com sucesso!");
+        var delay=2000; //1 seconds
+        setTimeout(function(){
+            location.replace("../logged/comunidade_list.php");
+        },delay);
+       }
+       
+   
+    })
+ });  
+
+  //Excluir Comunidade
+  function Excluir_Comunidade(id) {
+
+    $.ajax({ url: 'comunidade_excluir.php?id=' + id, cache: false }).done(function (txtinativa) {
+
+
+        if (txtinativa == 1) {
+
+            swal("Erro ao deletar o registro, por favor, contate o suporte!", '', 'error');
+
+        } else {
+            $("#tr_comunidade_" + id).fadeOut();
+        }
+    });
+}
