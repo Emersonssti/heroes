@@ -56,7 +56,7 @@
                         </ul>
                     </li>
                     <li><a href="assista.php"><span>Assista</span></a></li>
-                    <li><a id="comunidade" href="#"><span>Comunidade</span></a></li>
+                    <li><a href="comunidade.php"><span>Comunidade</span></a></li>
               
                 </ul>
             </div>       
