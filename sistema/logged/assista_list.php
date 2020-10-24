@@ -6,7 +6,7 @@
             <div class="page-header">
               <div class="row">
                 <div class="col-lg-9">
-                  <h3>Vídeos</h3>
+                  <h3>Notícias</h3>
                 </div>
                 <div class="col-lg-3" >
                     <div class="bg-transparent" style="float:right;"><a class="btn btn-success btn-lg" href="assista_forms.php"><span class="fa fa-plus"></span>Notícia</a></div>
