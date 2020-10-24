@@ -13,7 +13,8 @@
             <li class=""><a data-toggle="tab" href="#2divisaoa">2ª Divisão - Grupo A</a></li>
             <li class=""><a data-toggle="tab" href="#2divisaob">2ª Divisão - Grupo B</a></li>
             <li class=""><a data-toggle="tab" href="#1divisao">1ª Divisão</a></li>
-            <li class="active"><a data-toggle="tab" href="#ranking">Ranking Geral</a></li>
+            <li class=""><a data-toggle="tab" href="#ranking">Ranking Grupos</a></li>
+            <li class="active"><a data-toggle="tab" href="#playoff">Playoff</a></li>
 
         </ul>
 
@@ -676,7 +677,7 @@
     <section class="main-match-shedule">
             <div class="row">
             <div class="col-md-6">
-                <h6>Rankindedeg</h6>
+                <h6>Ranking</h6>
                 <div class="club-standings overflow-scroll">
                     <table class="table-standings">
                         <tr>
@@ -3391,6 +3392,8 @@
 </div>
 
                 <? include "ranking.php"?>
+
+                <? include "torneio_playoff.php"?>
 </div>
 
 

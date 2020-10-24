@@ -1,5 +1,5 @@
                  <!--1 Divisão --------------->
-<div id="ranking" class="tab-pane fade in active">
+<div id="ranking" class="tab-pane fade">
 
     <div class="row">
 

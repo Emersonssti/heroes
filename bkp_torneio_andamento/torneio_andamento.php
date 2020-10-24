@@ -133,7 +133,6 @@ $divisoes = '<table>
                             <td></td>
     <!--SEMIFINAL 1-->       <td style="background-color: orange !important;"> KAKASHI HATAKI <? echo $vitoria;?></td>
                             <td></td>
-
                         </tr>
 
                         <tr>
@@ -2023,8 +2022,6 @@ $divisoes = '<table>
 
 <!--Fase de Grupos-->
 <? include "torneio_andamento_grupos.php"; ?>
-   
-
 
 
 

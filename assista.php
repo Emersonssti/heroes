@@ -29,12 +29,12 @@
 
                 <?
                 
-                $sql_assista= "SELECT LINK, TITULO FROM assista ORDER BY DATA";
+                $sql_assista= "SELECT LINK, TITULO FROM assista ORDER BY DATA DESC";
                 foreach ($db_heroes->query($sql_assista) as $result_noticia) {
                 ?>
 
                 <div class="news-list col-md-4">
-                    <h6><? echo utf8_encode($result_noticia[1])?></h6>
+                    <h6><? echo $result_noticia[1];?></h6>
                     <div class="embed-responsive embed-responsive-16by9">
 
                     <iframe width="853" height="480" src="<? echo $result_noticia[0]; ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
