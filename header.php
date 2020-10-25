@@ -52,7 +52,7 @@
                         <ul>
                             <li><a href="torneio_breve.php"><span>Em Breve</span></a></li>
                             <li><a href="torneio_andamento.php"><span>Em Andamento</span></a></li>
-                            <li><a id="encerrado" href="#"><span>Encerrado</span></a></li>
+                            <li><a href="hall_fama.php"><span>Hall da Fama</span></a></li>
                         </ul>
                     </li>
                     <li><a href="assista.php"><span>Assista</span></a></li>

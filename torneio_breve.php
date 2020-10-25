@@ -22,65 +22,146 @@
 <!--BREADCRUMBS END-->
 
 
-    <!--DONATIONS WRAP BEGIN-->
-    <section class="donations-wrap">
-    <div class="container">
-        <div class="row">
+    <!--CLUB WRAP BEGIN-->
 
-    <?
+    
+   <?
    
    $sql_torneio= "SELECT 
-   NOME,
-   DATE_FORMAT(INICIO_INSCRICAO, '%d/%m'),
-   DATE_FORMAT(FINAL_INSCRICAO, '%d/%m'),
-   DATE_FORMAT(INICIO_CLASSIFICATORIA, '%d/%m'),
-   DATE_FORMAT(DATA_FINAL, '%d/%m'),
-   URL_IMG,
-   DESCRICAO
-   FROM torneio WHERE ID_STATUS = 4";
+        ID_TORNEIO,
+        NOME, 
+        TH, 
+        DATE_FORMAT(INICIO_INSCRICAO,'%d/%m/%Y'), 
+        DATE_FORMAT(FINAL_INSCRICAO,'%d/%m/%Y'),
+        DATE_FORMAT(INICIO_CLASSIFICATORIA,'%d/%m/%Y'),
+        DESCRICAO
+    FROM torneio WHERE ID_STATUS = 4";
    foreach ($db_heroes->query($sql_torneio) as $result_torneio) {
+    ?>
 
-
-       ?>
-
-            <div class="col-md-12">
-                <div class="donation-item">
-                    <div class="row no-gutter equal-height">
-                        <div class="col-md-7 col-sm-12">
-                            <div class="img-wrap"><img class="img-responsive" src="<? echo $result_torneio[5];?>" alt="donation-item"></div>
-                        </div>
-                        <div class="col-md-5 col-sm-12 position-relative">
-                            <div class="info">
-                                <div class="wrap">
-                                    <div class="title"><? echo utf8_encode($result_torneio[0]); ?></div>
-                                    <div class="progress-wrap">
-                                        <ul class="details">
-                                            <li>Inscrições: <span><? echo $result_torneio[1]; ?> - <? echo $result_torneio[2]; ?></span>/</li>
-                                            <li>Início: <span><? echo $result_torneio[3]; ?> </span>/</li>
-                                            <li>Final: <span><? echo $result_torneio[4]; ?> </span></li>
-                                           
-                                        </ul>
-                                        <div class="progress-line">
-                                            <div class="bar"></div>
-                                        </div>
-                                    </div>
-                                    <p><? echo $result_torneio[6]?></p>
-                                    <!-- <a href="#" class="btn small">Registrar</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<input type="hidden" id="id_torneio" value="<? echo $result_torneio[0]; ?>">
+<input type="hidden" id="cv" value="<? echo $result_torneio[2]; ?>">
+    <section class="club-wrap club-champ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4><? echo $result_torneio[1];?> </h4>
+                    <div class="champ-date"></div>
                 </div>
-                
-   <?}?>
+                <div class="col-md-3">
+                    <a href="trophies.html"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#inscricao" data-whatever="@fat" class="btn small club-top-btn">Inscrição</a>
+                </div>
+            </div>
+        </div>
 
+        <? include "modal_inscricao.php"; ?>
+
+<div class="championship-header-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="club-logo">
+                    <img src="images/Trofeu.png" class="img-responsive" alt="champ image">                
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="club-info">
+                    <div class="item"><span>Centro de vila:</span> <? echo $result_torneio[2];?></div>
+                    <div class="item"><span>Inscrições:</span> <? echo $result_torneio[3]; ?> À <? echo  $result_torneio[4]; ?></div>
+                    <div class="item"><span>Início do torneio:</span> <? echo $result_torneio[5]; ?></div>
+                    <div class="item"><span>Formato:</span> X1</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="club-info">
+                    <div class="item">Sobre o Torneio</div>
+                    <p><? echo $result_torneio[6];?></p>
+                </div>	
+            </div>
+        </div>	
+    </div>	
+</div>
+    </section>
+
+    <!--CLUB WRAP END-->
+
+    <!--CHAMPIONSHIP WRAP BEGIN-->
+
+    <div class="championship-wrap">
+        <!--CHAMPIONSHIP NAVIGATION BEGIN -->
+<div class="champ-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="champ-nav-list">
+                    <li class="active"><a href="#regras">Regras</a></li>
+                    <li><a href="#premios">Prêmios</a></li>
+                    <li ><a href="#agenda">Agenda</a></li>
+                    <li><a href="#participantes">Participantes</a></li>
+                </ul>		
+            </div>
+        </div>
+    </div>				
+</div>
+<!--CHAMPIONSHIP NAVIGATION END -->
+        <div class="champ-tab-wrap tab-content">
+
+
+<!--Regras -->
+<div class="tab-item news-tab tab-pane active" id="regras">
+    <div class="news-list">
+        <div class="container">
+            <div class="row">
+                <p>REGRAS</p> 
             </div>
         </div>
     </div>
-</section>
-<!--DONATIONS WRAP END-->
+</div>
+
+<!--Prêmios -->
+<div class="tab-item news-tab tab-pane" id="premios">
+    <div class="news-list">
+        <div class="container">
+            <div class="row">
+                <p>Prêmios</p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Agenda -->
+<div class="tab-item news-tab tab-pane" id="agenda">
+    <div class="news-list">
+        <div class="container">
+            <div class="row">
+                <p>Agenda</p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Participantes -->
+<div class="tab-item news-tab tab-pane" id="participantes">
+    <div class="part-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="item">
+                        <span class="name">ChuqNorriz</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+
+
+    </div>	
+</div>
+<!--CHAMPIONSHIP NEWS TAB END -->
+<?}?>
 
 
 
