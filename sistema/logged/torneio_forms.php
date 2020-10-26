@@ -50,6 +50,27 @@
                   </div>
 
                   <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Regras</label>
+                        <textarea class="form-control" rows="5" cols="5" id="regras"><? echo $regras; ?></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Calendário</label>
+                        <textarea class="form-control" rows="5" cols="5" id="calendario"><? echo $calendario; ?></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Prêmios</label>
+                        <textarea class="form-control" rows="5" cols="5" id="premios"><? echo $premios; ?></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
                       <div class="form-group">
                           <label>URL IMAGEM</label>
                           <input class="form-control" id="torneio_url_img" value="<? echo $url_img;?>" maxlength="255" type="text">
@@ -106,6 +127,7 @@
                           </select>
                         </div>
                     </div>
+
                     <div class="col-md-4">
                         <div class="form-group">
                           <label>Primeiro</label>
@@ -115,6 +137,14 @@
                           </select>
                         </div>
                     </div>
+
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label>URL Primeiro Colocado</label>
+                            <input class="form-control" id="torneio_url_jogador_1" value="<? echo $url_img_1;?>" maxlength="300" type="text">
+                        </div>
+                    </div> 
+
                     <div class="col-md-4">
                         <div class="form-group">
                           <label>Segundo</label>
@@ -124,6 +154,14 @@
                           </select>
                         </div>
                     </div>
+
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label>URL Segundo Colocado</label>
+                            <input class="form-control" id="torneio_url_jogador_2" value="<? echo $url_img_2;?>" maxlength="300" type="text">
+                        </div>
+                    </div> 
+
                     <div class="col-md-4">
                         <div class="form-group">
                           <label>Terceiro</label>
@@ -133,6 +171,14 @@
                           </select>
                         </div>
                     </div>
+
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label>URL Terceiro Colocado</label>
+                            <input class="form-control" id="torneio_url_jogador_3" value="<? echo $url_img_3;?>" maxlength="300" type="text">
+                        </div>
+                    </div> 
+
                     <div class="col-md-12">
                       <div class="form-group" style="float:right;">
                         <a href="torneio_list.php"> <button   class="btn btn-danger">Cancelar</button> </a>

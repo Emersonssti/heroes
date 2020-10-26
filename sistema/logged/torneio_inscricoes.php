@@ -11,23 +11,18 @@
                             <div class="row">
                               <? $cont = 0?>
                             <? $sql_inscricao = "SELECT 
-                       jogador.NOME, 
-                       vila.TAG_VILA,
-                       vila.NOME_VILA, 
-                       torneio_inscricoes.DATA
-                       FROM torneio_inscricoes
-                       INNER JOIN jogador_vila ON jogador_vila.ID_VILA = torneio_inscricoes.ID_VILA
-                       INNER JOIN jogador ON jogador.ID_JOGADOR = torneio_inscricoes.ID_JOGADOR
-                       INNER JOIN torneio ON torneio.ID_TORNEIO = torneio_inscricoes.ID_TORNEIO
-                       INNER JOIN vila ON vila.ID_VILA = torneio_inscricoes.ID_VILA
-                        WHERE torneio_inscricoes.ID_TORNEIO = '".$result_torneio[6]."' ORDER BY torneio_inscricoes.DATA
+                            NOME_VILA,
+                            TAG_VILA,
+                            DATE_FORMAT(DATA_CADASTRO,'%d/%m/%Y')
+                            FROM inscricao
+                              WHERE ID_TORNEIO = '".$result_torneio[6]."' ORDER BY DATA_CADASTRO
                        ";
                         foreach ($db_heroes->query($sql_inscricao) as $result_inscricao){ 
                           $cont ++
                           ?>
                                <div class="col-md-12">
                                   <div class="form-group">
-                                      <input class="form-control" disabled value="<? echo $cont; ?> - <? echo $result_inscricao[0]?> - #<? echo $result_inscricao[1]?> - <? echo $result_inscricao[2]?> - <? echo $result_inscricao[3]?> " type="text">
+                                      <input class="form-control" disabled value="<? echo $cont; ?> - <? echo $result_inscricao[0];?> - #<? echo $result_inscricao[1];?> - <? echo $result_inscricao[2];?>  " type="text">
                                     </div>
                                </div>
                          <?}?>

@@ -51,7 +51,7 @@
                         <a><span>Torneios</span></a>
                         <ul>
                             <li><a href="torneio_breve.php"><span>Em Breve</span></a></li>
-                            <li><a href="torneio_andamento.php"><span>Em Andamento</span></a></li>
+                            <li><a id="andamento" href="#"><span>Em Andamento</span></a></li>
                             <li><a href="hall_fama.php"><span>Hall da Fama</span></a></li>
                         </ul>
                     </li>

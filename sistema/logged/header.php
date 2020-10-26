@@ -104,14 +104,7 @@
                   <li class="back-btn">
                     <div class="mobile-back text-right"><span>Back</span><i class="fa fa-angle-right pl-2" aria-hidden="true"></i></div>
                   </li>
-                  <li class="dropdown"><a class="nav-link menu-title" href="#"><i data-feather="home"></i><span>Cadastro</span></a>
-                    <ul class="nav-submenu menu-content">
-                      <li><a href="jogador.php">Jogadores</a></li>
-                      <li><a href="vila.php">Vilas</a></li>
-                      <li><a href="torneio_list.php">Torneio</a></li>
-                      <li><a href="classificatoria_list.php">Classificatória</a></li>
-                    </ul>
-                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="torneio_list.php"><i data-feather="home"></i><span>Torneio</span></a>
                   <li class="dropdown"><a class="nav-link menu-title link-nav" href="noticias_list.php" target="_blank"><i data-feather="volume"></i><span>Notícias</span></a></li>
                   <li class="dropdown"><a class="nav-link menu-title link-nav" href="assista_list.php" target="_blank"><i data-feather="volume"></i><span>Assista</span></a></li>
                   <li class="dropdown"><a class="nav-link menu-title link-nav" href="comunidade_list.php" target="_blank"><i data-feather="volume"></i><span>Comunidade</span></a></li>

@@ -30,9 +30,16 @@ $("#gravar_torneio").click(function(){
     var PRIMEIRO = $('#torneio_primeiro').val();
     var SEGUNDO = $('#torneio_segundo').val();
     var TERCEIRO = $('#torneio_terceiro').val();
+    var URL_PRIMEIRO = $('#torneio_url_jogador_1').val();
+    var URL_SEGUNDO = $('#torneio_url_jogador_2').val();
+    var URL_TERCEIRO = $('#torneio_url_jogador_3').val();
+    var REGRAS = $('#regras').val();
+    var CALENDARIO = $('#calendario').val();
+    var PREMIOS = $('#premios').val();
    
-    $.ajax({ url:'torneio_grava.php?nome=' + NOME + '&th=' + TH + '&inicio_insc=' + INICIO_INSC + '&final_insc=' + FINAL_INSC+ '&classificatoria=' + CLASSIFICATORIA+ '&fase_grupo=' + FASE_GRUPO + '&semifinal=' + SEMIFINAL + '&final=' + FINAL + '&status=' + STATUS + '&id_torneio=' + ID_TORNEIO + '&descricao=' + DESCRICAO + '&url_img=' + URL_IMG+ '&primeiro=' + PRIMEIRO + '&segundo=' + SEGUNDO + '&terceiro=' + TERCEIRO, cache: false }).done(function (txtstatus) {
+    $.ajax({ url:'torneio_grava.php?nome=' + NOME + '&th=' + TH + '&inicio_insc=' + INICIO_INSC + '&final_insc=' + FINAL_INSC+ '&classificatoria=' + CLASSIFICATORIA+ '&fase_grupo=' + FASE_GRUPO + '&semifinal=' + SEMIFINAL + '&final=' + FINAL + '&status=' + STATUS + '&id_torneio=' + ID_TORNEIO + '&descricao=' + DESCRICAO + '&url_img=' + URL_IMG+ '&primeiro=' + PRIMEIRO + '&segundo=' + SEGUNDO + '&terceiro=' + TERCEIRO + '&url_primeiro=' + URL_PRIMEIRO + '&url_segundo=' + URL_SEGUNDO + '&url_terceiro=' + URL_TERCEIRO + '&calendario=' + CALENDARIO + '&regras=' + REGRAS + '&premios=' + PREMIOS, cache: false }).done(function (txtstatus) {
  
+     
        if(txtstatus == 0){
         swal("Não foi possível salvar os dados, contate o suporte", '', 'error');
 

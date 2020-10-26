@@ -26,7 +26,6 @@
 
     
    <?
-   
    $sql_torneio= "SELECT 
         ID_TORNEIO,
         NOME, 
@@ -34,7 +33,10 @@
         DATE_FORMAT(INICIO_INSCRICAO,'%d/%m/%Y'), 
         DATE_FORMAT(FINAL_INSCRICAO,'%d/%m/%Y'),
         DATE_FORMAT(INICIO_CLASSIFICATORIA,'%d/%m/%Y'),
-        DESCRICAO
+        DESCRICAO,
+        REGRAS,
+        PREMIOS,
+        CALENDARIO
     FROM torneio WHERE ID_STATUS = 4";
    foreach ($db_heroes->query($sql_torneio) as $result_torneio) {
     ?>
@@ -112,18 +114,17 @@
     <div class="news-list">
         <div class="container">
             <div class="row">
-                <p>REGRAS</p> 
+            <? echo $result_torneio[7]; ?>
             </div>
         </div>
     </div>
 </div>
-
 <!--Prêmios -->
 <div class="tab-item news-tab tab-pane" id="premios">
     <div class="news-list">
         <div class="container">
             <div class="row">
-                <p>Prêmios</p> 
+            <? echo $result_torneio[8]; ?>
             </div>
         </div>
     </div>
@@ -134,7 +135,7 @@
     <div class="news-list">
         <div class="container">
             <div class="row">
-                <p>Agenda</p> 
+            <? echo $result_torneio[9]; ?>
             </div>
         </div>
     </div>
@@ -145,11 +146,18 @@
     <div class="part-list">
         <div class="container">
             <div class="row">
+            <?
+   $sql_part= "SELECT 
+       NOME_VILA
+    FROM inscricao WHERE ID_TORNEIO = '".$result_torneio[0]."'";
+   foreach ($db_heroes->query($sql_part) as $result_part) {
+    ?>
                 <div class="col-md-3">
                     <a class="item">
-                        <span class="name">ChuqNorriz</span>
+                        <span class="name"><? echo $result_part[0];?></span>
                     </a>
                 </div>
+    <?}?>
             </div>
         </div>
     </div>

@@ -46,7 +46,7 @@
                        status_torneio.DESCRICAO,
                        torneio.ID_TORNEIO
                         FROM torneio
-                        INNER JOIN status_torneio ON status_torneio.ID_STATUS = torneio.ID_STATUS";
+                        LEFT JOIN status_torneio ON status_torneio.ID_STATUS = torneio.ID_STATUS";
                         foreach ($db_heroes->query($sql_torneio) as $result_torneio){ 
                           ?>
 

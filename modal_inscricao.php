@@ -28,8 +28,13 @@
           </div>
 
           <div class="form-group">
-            <label class="col-form-label" style="color:red">Nome/Tag Discord*:</label>
+            <label class="col-form-label" style="color:red">Nome Discord*:</label>
             <input class="form-control" id="nome_discord"></input>
+          </div>
+
+          <div class="form-group">
+            <label class="col-form-label" style="color:red">Tag Discord*:</label>
+            <input class="form-control" id="tag_discord"></input>
           </div>
 
           <div class="form-group">
