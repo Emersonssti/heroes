@@ -576,7 +576,6 @@
                         <div class="title">Premiações</div>
                         <p> Busque o posto de melhor jogador da comunidade e obtenha premiações incríveis! </p>
                     </div>
-                    <div class="col-md-12"><a href="#" class="booking">Cadastre-se</a></div>
                 </div>
             </div>
             <div class="col-md-5 position-relative">
