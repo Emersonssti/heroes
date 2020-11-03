@@ -36,23 +36,34 @@
         DESCRICAO,
         REGRAS,
         PREMIOS,
-        CALENDARIO
-    FROM torneio WHERE ID_STATUS = 4";
+        CALENDARIO,
+        ID_STATUS
+    FROM torneio WHERE ID_STATUS IN (1,4)";
    foreach ($db_heroes->query($sql_torneio) as $result_torneio) {
+
+    if($result_torneio[10] == 1){
+        $fundo_titulo = 'background-color: #27ae60';
+        $fonte_titulo = 'color:white';
+    }else{
+        $fundo_titulo = 'background-color: #f1c40f';
+    }
+
     ?>
 
 <input type="hidden" id="id_torneio" value="<? echo $result_torneio[0]; ?>">
 <input type="hidden" id="cv" value="<? echo $result_torneio[2]; ?>">
-    <section class="club-wrap club-champ">
+    <section class="club-wrap club-champ" style="<? echo $fundo_titulo;?>">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h4><? echo $result_torneio[1];?> </h4>
+                    <h4 style="<? echo $fonte_titulo; ?>"><? echo $result_torneio[1];?> </h4>
                     <div class="champ-date"></div>
                 </div>
+                <? if($result_torneio[10] == 1){?>
                 <div class="col-md-3">
                     <a href="trophies.html"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#inscricao" data-whatever="@fat" class="btn small club-top-btn">Inscrição</a>
                 </div>
+                <?}?>
             </div>
         </div>
 
