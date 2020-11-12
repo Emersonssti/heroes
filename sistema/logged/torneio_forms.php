@@ -45,7 +45,7 @@
                   <div class="col-md-12">
                       <div class="form-group">
                           <label>Descrição</label>
-                          <input class="form-control" id="torneio_descricao" value="<? echo $descricao;?>" maxlength="200" type="text">
+                          <input class="form-control" id="torneio_descricao" value="<? echo $descricao;?>" type="text">
                       </div>
                   </div>
 
