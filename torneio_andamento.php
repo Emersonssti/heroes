@@ -37,11 +37,12 @@
         REGRAS,
         PREMIOS,
         CALENDARIO,
-        ID_STATUS
-    FROM torneio WHERE ID_STATUS IN (1,4)";
+        ID_STATUS,
+        BRACKET
+    FROM torneio WHERE ID_STATUS = 2";
    foreach ($db_heroes->query($sql_torneio) as $result_torneio) {
 
-    if($result_torneio[10] == 1){
+    if($result_torneio[10] == 2){
         $fundo_titulo = 'background-color: #27ae60';
         $fonte_titulo = 'color:white';
     }else{
@@ -111,6 +112,7 @@
                     <li><a href="#premios">Prêmios</a></li>
                     <li ><a href="#agenda">Agenda</a></li>
                     <li><a href="#participantes">Participantes</a></li>
+                    <li><a href="#bracket">Bracket</a></li>
                 </ul>		
             </div>
         </div>
@@ -174,6 +176,20 @@
     </div>
 </div>
 
+<!--Bracket -->
+<div class="tab-item news-tab tab-pane" id="bracket">
+    <div class="news-list">
+        <div class="container">
+            <div class="row">
+            <div class="item img-top">
+        <div class="img-wrap">
+            <a href="news-single.html"><img src="<? echo $result_torneio[11];?>" alt="post image"></a>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
